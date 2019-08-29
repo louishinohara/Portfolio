@@ -309,7 +309,11 @@ ul.CTAs a {
 } 
 .card-title {
     color: black;
-    font-size: 2.1rem;
+    font-size: 2.4rem;
+}
+.card-title-subSection {
+    color: black;
+    font-size: 1.4rem;
 }
 .card-text {
     text-align: left;
