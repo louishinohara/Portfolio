@@ -139,7 +139,7 @@ span {
 
 #sidebar ul li a:hover { /* HOVERING OVER SIDEBAR */
     color: #7386D5;
-    background: rgb(211, 211, 211);
+    background: #fff;
 }
 
 #sidebar ul li a i {
