@@ -309,6 +309,12 @@ ul.CTAs a {
     color: black;
     font-size: 2.4rem;
 }
+.header-seperator {
+    height: 5px;
+    width: 60px;
+    background-color: #7386D5;
+    margin: 7px 0 7px 0;
+}
 .card-title-subSection {
     color: black;
     font-size: 1.4rem;
