@@ -17,14 +17,9 @@
     <!--CSS -->
 
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-
 </head>
 
-<body data-spy="scroll" data-target="#sidebar">
+<body data-spy="scroll" data-target="#sidebar" class="background">
 
     <div class="wrapper sidebar">
         <!-- Sidebar  -->
@@ -92,8 +87,6 @@
                         Contact
                     </a>
                 </li>
-                <i class="fab fa-github"></i>
-                
             </ul>
                <!--- Top Scroll -->
                 <a href="#home" class="top-scroll">
@@ -111,56 +104,41 @@
 
         <!-- Page Content  -->
         <div class="container-fluid" id="content">
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <h3 style="padding-top: 10px;">Louis Shinohara</h3>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <i class="far fa-envelope"></i>
+                        <ul class="nav navbar-nav ml-auto navbar-text">
+                            <div class="row">
+                            <li class="nav-item navbar-item">
+                                <a href="#">Github <i class="fab fa-github-square"></i></a><!-- https://github.com/louishinohara -->
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Github</a>
+                            <li class="nav-item navbar-item">
+                                <a href="#">LinkedIn <i class="fab fa-linkedin"></i></a><!--  -->
                             </li>
-                            <li class="nav-item">
-                                <!-- <a href="#"><i class="fab fa-github"></i></a> -->
-                                <a class="nav-link" href="#">LinkedIn</a>
+                            <li class="nav-item navbar-item">
+                                    <a href="#">Contact <i class="fas fa-envelope-square"></i></a><!--  -->
                             </li>
-                            <li class="nav-item">
-                                    <a href="#">
-                                        <i class="fas fa-envelope-square"></i>
-                                     </a>
-                            </li>
-                        </ul>
-                        
+                        </div>
+                        </ul> 
                     </div>
-                </div>
-                
+                </div>    
             </nav>
+                  
+            <!-- LEAVE THIS DIV OPEN -->
 
-
-            <!-- <div id="home">
-                    <h2>Home</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-            
-
-            <div> -->
-            
-
-			<div id="home">
-            <div class="card" style="width: 80%;" >
+		<div id="home">
+            <div class="card rounded">
 				<div class="row">  
                     <div class="col-md-5" >
-                        <img src="img/aboutMe.JPG" class="card-img-top h-100" alt="...">
+                        <img src="img/aboutMe.JPG" class="card-img-top h-100 rounded-left" alt="...">
                     </div>
                     <div class="col-md-7">
                         <div class="card-body">
                             <h5 class="card-title"> 	
                                 <div class="col-12 os-animation" data-animation="fadeInUp"></div>
-                                    <h1 class="card-title">About Me</h1>
-                                    <div class="header-seperator"></div>
+                                <h1 class="card-title">About Me</h1>
+                                <div class="header-seperator"></div>
                             </h5>
                             <h5 class="card-subtitle mb-2 text-muted">Subsection</h5>
                                 <p class="card-text aboutCaption" >Since 2010, Dean Jean Patrick Antoine has served as our Faculty Advisor, assisting the chapter with his wealth of advice and knowledge. His history with Rutgers spans back to his undergraduate career where he received his BS in Electrical and Computer Engineering. He then went on to receive a Master of Software Engineering degree from Penn State University. After more than a decade spent working in industry for companies like Lockheed Martin, Dow Jones, and Bloomberg L.P., he decided to make his way back to the banks of the Raritan River. He currently serves as Dean of Enrichment Programs, leading a variety of programs such as the Governor's School of Engineering.
@@ -168,16 +146,9 @@
                          </div>
                     </div>
                 </div>
-                </div>
-                   
-
-
-            <div class="line"></div>
-            <div id="about">
-                    <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
             </div>
+		</div>
+
             <div class="line"></div>
             <div id="education">
                     <h2>Education</h2>
@@ -238,6 +209,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+     <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/custom.js"></script>

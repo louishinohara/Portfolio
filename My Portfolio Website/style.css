@@ -35,6 +35,13 @@ a:focus {
     border: none;
 }
 
+.navbar-text{
+    font-size: 1rem;
+    letter-spacing: .3rem;
+}
+.navbar-item{
+    padding: 10px;
+}
 .line {
     width: 100%;
     height: 1px;
@@ -207,9 +214,107 @@ ul.CTAs a {
     transition: all 0.5s;
 }
 
+/*============= TOP SCROLL =============*/
+
+.top-scroll svg.svg-inline--fa {
+    font-size: 3.5rem;
+    height: 1.7rem;
+    color: #fff;
+    /* background: #fff; */
+  }
+  a.top-scroll {
+    left: 1.2rem;
+    bottom: 1.2rem;
+    position: fixed;
+    opacity: .9;
+    z-index: 10;
+    display: none;
+  }
+  a.top-scroll:hover {
+    opacity: .8;
+  }
+
+  .hvrbox .hvrbox-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hvrbox:hover .hvrbox-layer_slideup,
+.hvrbox.active .hvrbox-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+/* =================
+    ABOUT ME CARD
+    ================ */
+
+.card {
+    background-color: #fff;
+    border: none;
+    margin: 0 auto;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+    width: 80%
+
+} 
+.card-title {
+    color: black;
+    font-size: 2.4rem;
+}
+.header-seperator {
+    height: 5px;
+    width: 60px;
+    background-color: #7386D5;
+    margin: 7px 0 7px 0;
+}
+.card-title-subSection {
+    color: black;
+    font-size: 1.4rem;
+}
+.card-text {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.card-img-top {
+    width: 100%;
+    max-height: 100%;
+}
+
+.aboutCardImageLeft {
+    float: left;
+    background: #000;
+    /* width: 25%;
+    height: 150px; */
+}
+
+.aboutCaption {
+    color: black;
+    font-size: 1rem;
+}
+
+.background {
+    background: linear-gradient(200deg, #7386D5 10%, white 10%);
+      
+}
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+        text-align: center;
+    }
+    .header-seperator{ 
+        justify-content: center;
+        /* CENTER ON MOBILE UNDERLINE */
+    }
+}
 
 @media (max-width: 768px) {
     #sidebar {
@@ -258,85 +363,4 @@ ul.CTAs a {
     #sidebarCollapse span {
         display: none;
     }
-}
-
-/*============= TOP SCROLL =============*/
-
-.top-scroll svg.svg-inline--fa {
-    font-size: 3.5rem;
-    height: 1.7rem;
-    color: #53595f;
-    background: #fff
-  }
-  a.top-scroll {
-    left: 1.2rem;
-    bottom: 1.2rem;
-    position: fixed;
-    opacity: .3;
-    z-index: 10;
-    display: none;
-  }
-  a.top-scroll:hover {
-    opacity: .5;
-  }
-
-  .hvrbox .hvrbox-layer_slideup {
-	-moz-transform: translateY(100%);
-	-webkit-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-}
-.hvrbox:hover .hvrbox-layer_slideup,
-.hvrbox.active .hvrbox-layer_slideup {
-	-moz-transform: translateY(0);
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(0);
-}
-
-/* =================
-    ABOUT ME CARD
-    ================ */
-
-.card {
-    background-color: #fff;
-    border: none;
-    margin: 0 auto;
-    box-shadow: 0 15px 40px rgba(0,0,0,.5);
-
-} 
-.card-title {
-    color: black;
-    font-size: 2.4rem;
-}
-.header-seperator {
-    height: 5px;
-    width: 60px;
-    background-color: #7386D5;
-    margin: 7px 0 7px 0;
-}
-.card-title-subSection {
-    color: black;
-    font-size: 1.4rem;
-}
-.card-text {
-    text-align: left;
-    font-size: 1.4rem;
-}
-
-.card-img-top {
-    width: 100%;
-    max-height: 100%;
-}
-
-.aboutCardImageLeft {
-    float: left;
-    background: #000;
-    /* width: 25%;
-    height: 150px; */
-}
-
-.aboutCaption {
-    color: black;
-    font-size: 1.4rem;
 }
