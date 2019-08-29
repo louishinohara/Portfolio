@@ -28,29 +28,29 @@
 
     <div class="wrapper">
         <!-- Sidebar  -->
-        <nav id="sidebar">
+        <nav id="sidebar" class="navbar-fixed-left">
             <div class="sidebar-header">
                 <img class="sidebar-pic" src="img/me.png">
                 <h3 style="padding-top: 10px;">Louis Shinohara</h3>
                 <strong>LS</strong>
             </div>
-            <ul class="list-unstyled components">
+            <ul class="navbar-nav ">
                 <!-- Have sidebar highlighted when on that section -->
-                <li>
-                    <a href="#home">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">
                         <i class="fas fa-home"></i>
                             Home
                     </a>
                 </li>
-                <li>
-                    <a href="#about">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
                         <i class="fas fa-briefcase"></i>
                         About
                         <!-- Education -->
                     </a>
                 </li>
-                <li class="active">
-                    <a href="#educationSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <li class="nav-link" class="active nav-item">
+                    <a href="#educationSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
                         <i class="fas fa-graduation-cap"></i>
                         Education  <!-- Have a lil envelope thing that splits the screen. pushes it down and displays itself for coursework and awards-->
                     </a>
@@ -63,32 +63,32 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#projects">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">
                         <i class="fas fa-code"></i>
                         Projects
                     </a>
                 </li>
-                <li>
-                    <a href="#skills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">
                          <i class="fas fa-wrench"></i>
                         Skills
                     </a>
                 </li>
-                <li>
-                    <a href="#experience">
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">
                         <i class="fas fa-briefcase"></i>
                         Work Experience
                     </a>
                 </li>
-                <li>
-                        <a href="Resume.pdf" target="_blank">
+                <li class="nav-item">
+                        <a class="nav-link" href="Resume.pdf" target="_blank">
                             <i class="fas fa-file"></i>
                             Resume
                         </a>
                     </li>
-                <li>
-                    <a href="#contact">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
                         <i class="fas fa-mobile-alt"></i>
                         Contact
                     </a>
@@ -109,7 +109,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
+                    
                     <button type="button" id="sidebarCollapse" class="btn btn-info" style="background-color: rgb(112, 127, 189); border-color: rgb(112, 127, 189);">
                         <i class="fas fa-align-left"></i>
                         <span>Toggle Sidebar</span>
