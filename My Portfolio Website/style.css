@@ -127,7 +127,7 @@ span {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
+    padding: 5px 0;
     border-bottom: 1px solid #d8d8d8;
 }
 
@@ -255,4 +255,38 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+}
+
+/*============= TOP SCROLL =============*/
+
+.top-scroll svg.svg-inline--fa {
+    font-size: 3.5rem;
+    height: 1.7rem;
+    color: #53595f;
+    background: rgb(167, 167, 167);
+  }
+  a.top-scroll {
+    right: 1.2rem;
+    bottom: 1.2rem;
+    position: fixed;
+    opacity: .3;
+    z-index: 1000;
+    display: none;
+  }
+  a.top-scroll:hover {
+    opacity: .5;
+  }
+
+  .hvrbox .hvrbox-layer_slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hvrbox:hover .hvrbox-layer_slideup,
+.hvrbox.active .hvrbox-layer_slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
 }
