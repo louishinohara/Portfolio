@@ -251,7 +251,7 @@ ul.CTAs a {
     CONTENT STYLE
 ----------------------------------------------------- */
 
-#content {
+.topBar {
     width: 100%;
     padding: 20px;
     min-height: 100vh;
