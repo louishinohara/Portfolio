@@ -29,10 +29,12 @@
         <!-- Sidebar  -->
         <nav class="sidebar-nav sticky-top" id="sidebar">
             <ul class="navbar-nav sticky-top components">
-                <div class="sidebar-header ">
+                <div class="sidebar-header">
+                <a href="#home">
                     <img class="sidebar-pic center" src="img/me.png"> 
                     <h3 style="padding-top: 10px; text-align: center; font-size: 1.1rem;">LOUIS SHINOHARA</h3>
                     <strong>LS</strong>
+                </a>
                 </div>
 
                 <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,6 +108,7 @@
                                     <!-- <span>Louis Shinohara</span> -->
                             </button>
                     <h3 style="padding-top: 10px;">Louis Shinohara</h3>
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto navbar-text">
                             <div class="row">
@@ -143,13 +146,11 @@
                                 <p class="card-text aboutCaption" >Since 2010, Dean Jean Patrick Antoine has served as our Faculty Advisor, assisting the chapter with his wealth of advice and knowledge. His history with Rutgers spans back to his undergraduate career where he received his BS in Electrical and Computer Engineering. He then went on to receive a Master of Software Engineering degree from Penn State University. After more than a decade spent working in industry for companies like Lockheed Martin, Dow Jones, and Bloomberg L.P., he decided to make his way back to the banks of the Raritan River. He currently serves as Dean of Enrichment Programs, leading a variety of programs such as the Governor's School of Engineering.
                                 </p>
                          </div>
-                         <div style="align-items: right">
-                         <!-- <button type="button" data-toggle="modal" data-target="#exampleModalCenter" style="background-color: #7386D5; border-color: #7386D5;">
-                                <span>Education .</span><i class="fas fa-graduation-cap"></i>     
-                        </button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
+            <!--================== B U T T O N S  O N  A B O U T========================= -->
+                         <div class="btn-toolbar" style="justify-content: center;">
+                                <button type="button" class="btn btn-primary btn-space" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
                                 Education <i class="fas fa-graduation-cap"></i>
-                              </button>
+                                </button>
                         <div class="modal fade" id="education" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                   <div class="modal-content">
@@ -159,18 +160,23 @@
                                         <span aria-hidden="true">&times;</span>
                                       </button>
                                     </div>
-                                    <div class="modal-body">
-                                      ...
-                                    </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                      <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                  </div>
+                                <div class="modal-body">
+                                    <ul>
+                                  <p>Rutgers University New Brunswick</p>
+                                  <li>Bachelors in Computer Engineering</li>
+                                  <li>Expected Graduation: May 2021</li>
+                                  <li>GPA: 3.695</li>
+                                  <li>Dean's List: All Semesters</li>
+                                </ul>
                                 </div>
-                              </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
 
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#workExperience" style="background-color: #7386D5; border-color: #7386D5;">
+                        <button type="button" class="btn btn-primary btn-space" data-toggle="modal" data-target="#workExperience" style="background-color: #7386D5; border-color: #7386D5;">
                                 Work Experience <i class="fas fa-briefcase"></i> 
                         </button>
                               <div class="modal fade" id="workExperience" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -183,24 +189,28 @@
                                           </button>
                                         </div>
                                         <div class="modal-body">
-                                          ...
+                                          <p>Intern for Cypher City</p>
+                                          <li>Start Date</li>
+                                          <li>aaaaa</li>
+                                          <br>
+                                          <p>Office of Information Technology</p>
+                                          <li>Resnet Certified</li>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                          <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
 
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#resume" style="background-color: #7386D5; border-color: #7386D5;">
-                                    Resume <i class="fas fa-file"></i> 
+                        <button type="button" class="btn btn-primary btn-space" data-toggle="modal" data-target="#resume" style="background-color: #7386D5; border-color: #7386D5;">
+                                    Resume?? <i class="fas fa-file"></i> 
                         </button>
                         <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                   <div class="modal-content">
                                     <div class="modal-header">
-                                      <h5 class="modal-title" id="exampleModalLongTitle">Work Experience</h5>
+                                      <h5 class="modal-title" id="exampleModalLongTitle">Resume</h5>
                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                       </button>
@@ -209,8 +219,7 @@
                                       ...
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                      <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>
                                   </div>
                                 </div>
@@ -282,12 +291,7 @@
         
             </div>
             <div class="line"></div>
-            <div id="experience">
-                    <h2>Work Experience</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderitLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-            </div>
-            <div class="line"></div>
+
             <div id="resume">
                     <h2>Resume</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ia deserunt mollit anim id est laborum.</p>
@@ -299,19 +303,6 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.est laborum.</p>
         
             </div>
-            <div class="line"></div>
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt iLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.n culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ExceLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.pteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </div>
 
