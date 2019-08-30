@@ -295,7 +295,9 @@ ul.CTAs a {
 /* =================
     ABOUT ME CARD
     ================ */
-
+.home{
+    padding-bottom: 50px;
+}
 .card {
     background-color: #fff;
     border: none;
@@ -342,6 +344,11 @@ ul.CTAs a {
 .background {
     background: linear-gradient(200deg, #7386D5 10%, white 10%);
 }
+/* ==================================================
+                    CAROUSEL                                 
+===================================================== */
+
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
