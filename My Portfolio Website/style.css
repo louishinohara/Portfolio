@@ -85,10 +85,10 @@ a:focus {
     letter-spacing: .3rem;
 }
 
-.navbar-text:hover,
+/* .navbar-text:hover,
 .navbar-text:focus{
     color:red;
-}
+} */
 
 .navbar-item{
     padding: 10px;
@@ -361,7 +361,74 @@ ul.CTAs a {
 ===================================================== */
 
 
+/* ==================================================
+          FOOTER AND CONTACT SECTION                              
+===================================================== */
+footer {
+    background: url('img/footer/footer.png') no-repeat; /* Change background photo */
+    background-size: cover;
+    color: white;
+}
+footer .row {
+    background-color: #7386D5;
+    padding: 1rem 2rem 3rem;
+}
 
+footer img {
+    height: 2rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: .3rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #CC0033!important;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+/*===== Contact Section =====*/
+.form-group {
+    margin-bottom: .6rem;
+}
+
+.form-control {
+    background-color: #53595f;
+    border-radius: 0;
+    border:.15rem solid#666B71;
+    color: white!important;
+    font-size: 1.1rem;
+}
+
+.form-control:focus {
+    background: #53595f;
+    border: .15rem solid#666B71;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #a3a3a1!important;
+}
+
+input.btn {
+    cursor: pointer;
+    /*border: .15rem solid#666B71; */
+}
+
+hr.socket {
+    border-top: .2rem solid#666b71;
+    width:100%
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
