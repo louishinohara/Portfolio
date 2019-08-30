@@ -1,4 +1,49 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/* html, body {
+    background: #347fc3;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .bar {
+    position: relative;
+    height: 2px;
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 150px;
+  }
+  
+  .circle {
+    position: absolute;
+    top: -30px;
+    margin-left: -30px;
+    height: 60px;
+    width: 60px;
+    left: 0;
+    background: #fff;
+    border-radius: 30%;
+    -webkit-animation: move 5s infinite;
+  }
+  
+  p {
+    position: absolute;
+    top: -35px;
+    right: -85px;
+    text-transform: uppercase;
+    color: #347fc3;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  @-webkit-keyframes move {
+    0% {left: 0;}
+    50% {left: 100%; -webkit-transform: rotate(450deg); width: 150px; height: 150px;}
+    75% {left: 100%; -webkit-transform: rotate(450deg); width: 150px; height: 150px;}
+    100 {right: 100%;}
+  }  */
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -80,7 +125,6 @@ span {
     background: #7386D5;
     color: #fff;
     transition: all 0.5s;
-    
 }
 
 #sidebar.active {
@@ -258,7 +302,6 @@ ul.CTAs a {
     margin: 0 auto;
     box-shadow: 0 15px 40px rgba(0,0,0,.5);
     width: 80%
-
 } 
 .card-title {
     color: black;
@@ -298,7 +341,6 @@ ul.CTAs a {
 
 .background {
     background: linear-gradient(200deg, #7386D5 10%, white 10%);
-      
 }
 
 /* ---------------------------------------------------
