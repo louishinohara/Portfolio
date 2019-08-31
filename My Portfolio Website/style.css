@@ -359,11 +359,16 @@ ul.CTAs a {
 /* ==================================================
                     CAROUSEL                                 
 ===================================================== */
-
-
+.carouselCard{
+    box-shadow: 0 5px 10px rgba(0,0,0,.3)!important;
+}
 /* ==================================================
           FOOTER AND CONTACT SECTION                              
 ===================================================== */
+.contact-icons:hover {
+    background-color: white;
+    color: #7386D5;
+}
 footer {
     background: url('img/footer/footer.png') no-repeat; /* Change background photo */
     background-size: cover;
