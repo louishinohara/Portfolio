@@ -357,11 +357,26 @@ ul.CTAs a {
     margin-top: 50px;
 }
 /* ==================================================
-                    CAROUSEL                                 
+                    PORTFOLIO SECTION                                 
 ===================================================== */
-.carouselCard{
-    box-shadow: 0 5px 10px rgba(0,0,0,.3)!important;
-}
+
+.row.padding {
+    padding: 2rem 0 1rem;
+  }
+  img.example-image {
+    max-width: 100%;
+  }
+  .row.no-padding [class*=col-] {
+    padding: 0;
+  }
+  .portfolio-item img:hover {
+    transform: scale(1.3);
+    cursor: zoom-in;
+  }
+  
+  .portfolio-item {
+    overflow: hidden;
+  }
 /* ==================================================
           FOOTER AND CONTACT SECTION                              
 ===================================================== */

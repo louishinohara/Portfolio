@@ -17,6 +17,7 @@
     <!--CSS -->
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css.animate.css">
 </head>
 <!-- <div class="bar">
         <div class="circle"></div>
@@ -24,7 +25,9 @@
         </div> -->
 <body data-spy="scroll" data-target="#sidebar" class="background">
 
-
+    <!--======================== 
+        START SIDEBAR SECTION 
+        ========================= -->
     <div class="wrapper sidebar">
         <!-- Sidebar  -->
         <nav class="sidebar-nav sticky-top" id="sidebar">
@@ -102,6 +105,10 @@
              </a>
                  
         <!--- End of Top Scroll -->
+
+         <!--==================== 
+            END SIDEBAR SECTION 
+        ========================= -->
            <!--  <ul class="list-unstyled CTAs">
                 <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
             </p>
@@ -111,7 +118,9 @@
             </ul>-->
         </nav> 
 
-        <!-- Page Content  -->
+         <!--================== 
+            START TOP NAVIGATION BAR 
+            ========================= -->
         <div id="home" class="container-fluid topBar" >
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -138,9 +147,15 @@
                     </div>
                 </div>    
             </nav>
-                  
+             <!--==================== 
+                END TOP NAVIGATION  BAR 
+                ====================== -->    
+
             <!-- LEAVE THIS DIV OPEN -->
 
+             <!--==================== 
+                START  ABOUT SECTION CARD
+            ========================= -->
 		<div class="home">
             <div class="card rounded">
 				<div class="row">  
@@ -158,7 +173,13 @@
                                 <p class="card-text aboutCaption" >Since 2010, Dean Jean Patrick Antoine has served as our Faculty Advisor, assisting the chapter with his wealth of advice and knowledge. His history with Rutgers spans back to his undergraduate career where he received his BS in Electrical and Computer Engineering. He then went on to receive a Master of Software Engineering degree from Penn State University. After more than a decade spent working in industry for companies like Lockheed Martin, Dow Jones, and Bloomberg L.P., he decided to make his way back to the banks of the Raritan River. He currently serves as Dean of Enrichment Programs, leading a variety of programs such as the Governor's School of Engineering.
                                 </p>
                          </div>
-            <!--================== B U T T O N S  O N  A B O U T========================= -->
+            <!--========================= 
+                END   ABOUT  SECTION CARD
+                ========================= -->
+
+            <!--=========================
+                START BUTTONS ON ABOUT
+                ========================= -->
                          <div class="btn-toolbar" style="justify-content: center;">
                                 <button type="button" class="btn btn-primary btn-space" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
                                 Education <i class="fas fa-graduation-cap"></i>
@@ -241,10 +262,83 @@
                 </div>      
             </div>
         </div>
-        
-        <div id=projects>
+ 
+        <!--============================
+            E N D  B U T T O N S  O N  A B O U T 
+            ========================= -->
 
+
+ 
+        <!--============================
+           START PORTFOLIO GRID
+            ============================ -->
+
+           
+<div class="container-fluid" id=projects>
+    <div class="row no-padding">
+        <div class="col-sm-6 col-md-4">
+        <div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
+            <div class="portfolio-item">
+                <a href="testImg/portfolio/1.png" data-lightbox="example-set" data-title="My Portfolio Image Description">
+                    <img class="example-image" src="testImg/portfolio/1.png" alt="">
+                </a>
+            </div>
         </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-4">
+        <div class="os-animation" data-animation="bounceInLeft">
+            <div class="portfolio-item">
+                <a href="testImg/portfolio/2.png" data-lightbox="example-set">
+                    <img class="example-image" src="testImg/portfolio/2.png" alt="">
+                </a>
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-4">
+        <div class="os-animation" data-animation="bounceInRight">
+            <div class="portfolio-item">
+                <a href="testImg/portfolio/3.png" data-lightbox="example-set">
+                    <img class="example-image" src="testImg/portfolio/3.png" alt="">
+                </a>
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-4">
+        <div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
+            <div class="portfolio-item">
+                <a href="testImg/portfolio/5.png" data-lightbox="example-set">
+                    <img class="example-image" src="testImg/portfolio/5.png" alt="">
+                </a>
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-4">
+        <div class="os-animation" data-animation="bounceInLeft">
+            <div class="portfolio-item">
+                <a href="testImg/portfolio/6.png" data-lightbox="example-set">
+                    <img class="example-image" src="testImg/portfolio/6.png" alt="">
+                </a>
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-4">
+        <div class="os-animation" data-animation="bounceInRight">
+            <div class="portfolio-item">
+                <a href="testImg/portfolio/7.png" data-lightbox="example-set">
+                    <img class="example-image" src="testImg/portfolio/7.png" alt="">
+                </a>
+            </div>
+        </div>
+        </div>
+    
+    
+    </div> <!--- End Row -->
+
 
     <!-- <div id="projects" style="padding-top: 50px;">
             <h5 class="card-title">Coding Projects</h5>
