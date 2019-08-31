@@ -214,7 +214,6 @@ ul.CTAs a {
 
 .topBar {
     width: 100%;
-    padding: 20px;
     min-height: 100vh;
     transition: all 0.5s;
 }
@@ -342,13 +341,15 @@ ul.CTAs a {
     background-color: white;
     color: #7386D5;
 }
+.contact-header{
+    color:black;
+}
 footer {
-    background: url('img/footer/footer.png') no-repeat; /* Change background photo */
     background-size: cover;
     color: white;
 }
 footer .row {
-    background-color: #7386D5;
+    background-color: black;
     padding: 1rem 2rem 3rem;
 }
 
