@@ -17,7 +17,10 @@
     <!--CSS -->
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css.animate.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/waypoints.css">
+    
 </head>
 <!-- <div class="bar">
         <div class="circle"></div>
@@ -273,71 +276,64 @@
            START PORTFOLIO GRID
             ============================ -->
 
-           
-<div class="container-fluid" id=projects>
+<div id="projects" style="padding-top: 50px;">
+    <h5 class="card-title">Coding Projects</h5>
+    <div class="header-seperator"></div>
+        <h6 class="card-subtitle mb-2 text-muted">
+            Check out some of my work.
+        </h6>        
+
+<div class="container-fluid portfolioGrid" >
     <div class="row no-padding">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-3">
+        <div class="os-animation" data-animation="bounceInLeft" data-delay=".1s">
+            <div class="portfolio-item">
+                <!-- <a href="testImg/portfolio/1.png" data-lightbox="example-set" data-title="My Portfolio Image Description"> -->
+                    <img class="project-image" src="testImg/portfolio/1.png" alt="">
+                <!-- </a> -->
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-3">
+        <div class="os-animation" data-animation="bounceInDown" data-delay=".2s">
+            <div class="portfolio-item">
+                <!-- <a href="testImg/portfolio/2.png" data-lightbox="example-set"> -->
+                    <img class="project-image" src="testImg/portfolio/2.png" alt="">
+                <!-- </a> -->
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-3">
+        <div class="os-animation" data-animation="bounceInRight" data-delay=".2s">
+            <div class="portfolio-item">
+                <!-- <a href="testImg/portfolio/3.png" data-lightbox="example-set"> -->
+                    <img class="project-image" src="testImg/portfolio/3.png" alt="">
+                <!-- </a> -->
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-3">
         <div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
             <div class="portfolio-item">
-                <a href="testImg/portfolio/1.png" data-lightbox="example-set" data-title="My Portfolio Image Description">
-                    <img class="example-image" src="testImg/portfolio/1.png" alt="">
-                </a>
+                <!-- <a href="testImg/portfolio/5.png" data-lightbox="example-set"> -->
+                    <img class="project-image" src="testImg/portfolio/5.png" alt="">
+                <!-- </a> -->
             </div>
         </div>
         </div>
     
-        <div class="col-sm-6 col-md-4">
-        <div class="os-animation" data-animation="bounceInLeft">
-            <div class="portfolio-item">
-                <a href="testImg/portfolio/2.png" data-lightbox="example-set">
-                    <img class="example-image" src="testImg/portfolio/2.png" alt="">
-                </a>
-            </div>
-        </div>
-        </div>
-    
-        <div class="col-sm-6 col-md-4">
-        <div class="os-animation" data-animation="bounceInRight">
-            <div class="portfolio-item">
-                <a href="testImg/portfolio/3.png" data-lightbox="example-set">
-                    <img class="example-image" src="testImg/portfolio/3.png" alt="">
-                </a>
-            </div>
-        </div>
-        </div>
-    
-        <div class="col-sm-6 col-md-4">
-        <div class="os-animation" data-animation="bounceInLeft" data-delay=".2s">
-            <div class="portfolio-item">
-                <a href="testImg/portfolio/5.png" data-lightbox="example-set">
-                    <img class="example-image" src="testImg/portfolio/5.png" alt="">
-                </a>
-            </div>
-        </div>
-        </div>
-    
-        <div class="col-sm-6 col-md-4">
-        <div class="os-animation" data-animation="bounceInLeft">
-            <div class="portfolio-item">
-                <a href="testImg/portfolio/6.png" data-lightbox="example-set">
-                    <img class="example-image" src="testImg/portfolio/6.png" alt="">
-                </a>
-            </div>
-        </div>
-        </div>
-    
-        <div class="col-sm-6 col-md-4">
-        <div class="os-animation" data-animation="bounceInRight">
-            <div class="portfolio-item">
-                <a href="testImg/portfolio/7.png" data-lightbox="example-set">
-                    <img class="example-image" src="testImg/portfolio/7.png" alt="">
-                </a>
-            </div>
-        </div>
-        </div>
-    
-    
-    </div> <!--- End Row -->
+
+
+    </div>
+</div> 
+
+
+        <!--============================
+           END PORTFOLIO GRID
+            ============================ -->
 
 
     <!-- <div id="projects" style="padding-top: 50px;">
@@ -519,9 +515,13 @@
      <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-
-    <script src="js/jquery-3.3.1.min.js"></script>
+    
     <script src="js/custom.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+
     <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
     
