@@ -338,6 +338,9 @@ ul.CTAs a {
 /* ==================================================
           FOOTER AND CONTACT SECTION                              
 ===================================================== */
+/* .contact-wrap{
+    background: linear-gradient(200deg, #7386D5 50%, white 20%);
+} */
 .contact-icons{
     margin:24px;
 }
