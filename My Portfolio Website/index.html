@@ -52,20 +52,6 @@
                         Home
                     </a>
                 </li>
-                <!-- <li class="nav-link" class="active nav-item">
-                    <a href="#educationSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
-                        <i class="fas fa-graduation-cap"></i>
-                        Education   Have a lil envelope thing that splits the screen. pushes it down and displays itself for coursework and awards
-                    </a>
-                    <ul class="collapse list-unstyled" id="educationSubmenu">
-                        <li>
-                            <a href="#">Awards</a>
-                        </li>
-                        <li>
-                            <a href="#">Coursework</a>
-                        </li>
-                    </ul>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">
                         <i class="fas fa-code"></i>
@@ -85,17 +71,12 @@
                         </a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#resume" >
-                            <i class="fas fa-file"></i>
-                            Resume
-                        </a>
-                    </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#contact">
                         <i class="fas fa-mobile-alt"></i>
                         Contact
                     </a>
                 </li>
+
                 <!-- <ul>
                     <div class="contact-icons">
                         <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
@@ -108,7 +89,7 @@
                 </ul> -->
             </ul>
             <ul>
-                <li class="nav-item">
+                <li class="nav-item nav-link">
                     <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
                 </li>
             </ul>
@@ -123,20 +104,13 @@
          <!--==================== 
             END SIDEBAR SECTION 
         ========================= -->
-           <!--  <ul class="list-unstyled CTAs">
-                <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-            </p>
-                <li>
-                    <a href="Resume.pdf" target="_blank" class="download">Resume</a>
-                </li>
-            </ul>-->
         </nav> 
 
          <!--================== 
             START TOP NAVIGATION BAR 
             ========================= -->
         <div id="home" class="container-fluid topBar" >
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav id="top-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                         <button type="button" id="sidebarCollapse" class="text-left btn btn-info" style="background-color: #7386D5; border-color: #7386D5;">
                                 <i class="fas fa-align-left"></i>
@@ -144,17 +118,17 @@
                             </button>
                     <h3 style="padding-top: 10px;">Louis Shinohara</h3>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse blah" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto navbar-text">
                             <div class="row">
                             <li class="nav-item navbar-item">
-                                <a target="_blank" href="https://github.com/louishinohara">Github<i class="fab fa-github-square"></i></a><!-- https://github.com/louishinohara -->
+                                <a target="_blank" href="https://github.com/louishinohara">Github<i class="fab fa-github-square"></i></a>
                             </li>
                             <li class="nav-item navbar-item">
                                 <a target="_blank" href="https://www.linkedin.com/in/louishinohara/">| LinkedIn <i class="fab fa-linkedin"></i></a><!--  -->
                             </li>
                             <li class="nav-item navbar-item">
-                                    <a href="#">| Resume <i class="fas fa-file"></i></a><!--  -->
+                                <a href="Resume.pdf" target="_blank" class="download">| Resume <i class="fas fa-file"></i></a>
                             </li>
                         </div>
                         </ul> 
@@ -183,97 +157,52 @@
                                 <h1 class="card-title">About Me</h1>
                                 <div class="header-seperator"></div>
                             </h5>
+                            <div class="row">
+                                <div class="column">
                             <h5 class="card-subtitle mb-2 text-muted">Computer Engineering Student</h5>
-                                <p class="card-text aboutCaption" >Since 2010, Dean Jean Patrick Antoine has served as our Faculty Advisor, assisting the chapter with his wealth of advice and knowledge. His history with Rutgers spans back to his undergraduate career where he received his BS in Electrical and Computer Engineering. He then went on to receive a Master of Software Engineering degree from Penn State University. After more than a decade spent working in industry for companies like Lockheed Martin, Dow Jones, and Bloomberg L.P., he decided to make his way back to the banks of the Raritan River. He currently serves as Dean of Enrichment Programs, leading a variety of programs such as the Governor's School of Engineering.
-                                </p>
-                         </div>
-            <!--========================= 
-                END   ABOUT  SECTION CARD
-                ========================= -->
 
             <!--=========================
                 START BUTTONS ON ABOUT
                 ========================= -->
-                         <div class="btn-toolbar" style="justify-content: center;">
-                                <button type="button" class="btn btn-primary btn-space" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
-                                Education <i class="fas fa-graduation-cap"></i>
-                                </button>
-                        <div class="modal fade" id="education" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h5 class="modal-title" id="exampleModalLongTitle">Education</h5>
-                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                      </button>
-                                    </div>
-                                <div class="modal-body">
-                                    <ul>
-                                  <p>Rutgers University New Brunswick</p>
-                                  <li>Bachelors in Computer Engineering</li>
-                                  <li>Expected Graduation: May 2021</li>
-                                  <li>GPA: 3.695</li>
-                                  <li>Dean's List: All Semesters</li>
-                                </ul>
+                         <div class="btn-toolbar" style="justify-content: left;">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
+                            Education <i class="fas fa-graduation-cap"></i>
+                            </button>
+                    <div class="modal fade" id="education" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Education</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
                                 </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                        </div>
+                            <div class="modal-body">
+                                <ul>
+                              <p>Rutgers University New Brunswick</p>
+                              <li>Bachelors in Computer Engineering</li>
+                              <li>Expected Graduation: May 2021</li>
+                              <li>GPA: 3.695</li>
+                              <li>Dean's List: All Semesters</li>
+                            </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
                     </div>
                 </div>
-
-                        <button type="button" class="btn btn-primary btn-space" data-toggle="modal" data-target="#workExperience" style="background-color: #7386D5; border-color: #7386D5;">
-                                Work Experience <i class="fas fa-briefcase"></i> 
-                        </button>
-                              <div class="modal fade" id="workExperience" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLongTitle">Work Experience</h5>
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
-                                        </div>
-                                        <div class="modal-body">
-                                          <p>Intern for Cypher City</p>
-                                          <li>Start Date</li>
-                                          <li>aaaaa</li>
-                                          <br>
-                                          <p>Office of Information Technology</p>
-                                          <li>Resnet Certified</li>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                        <button type="button" class="btn btn-primary btn-space" data-toggle="modal" data-target="#resumee" style="background-color: #7386D5; border-color: #7386D5;">
-                                    Resume?? <i class="fas fa-file"></i> 
-                        </button>
-                        <div class="modal fade" id="resumee" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h5 class="modal-title" id="exampleModalLongTitle">Resume</h5>
-                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                      </button>
-                                    </div>
-                                    <div class="modal-body">
-                                      ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>      
+                </div>
+            </div>
+                </div>
+            </div>     
+        </div>
+                <p class="card-text aboutCaption" ><span style="font-weight: 500; font-size: 3rem;">H</span>ello! My name is Ushio Louis Shinohara. I am currently a third year college student studying computer engineering at Rutgers University New Brunswick. I used to be a business major but after discovering my passion for science and innovation, I switched my major to engineering. I am a self made software developer with an intended career in software engineering. I am actively looking for an internship for next summer. Check out some of my work and I can't wait to hear back from you!
+                </p>
+                         </div>
+            <!--========================= 
+                END   ABOUT  SECTION CARD
+                ========================= -->
+ 
             </div>
         </div>
  
@@ -375,98 +304,6 @@
     </div>
 </div> 
 
-
-        <!--============================
-           END PORTFOLIO GRID
-            ============================ -->
-
-
-    <!-- <div id="projects" style="padding-top: 50px;">
-            <h5 class="card-title">Coding Projects</h5>
-            <div class="header-seperator"></div>
-
-            <h6 class="card-subtitle mb-2 text-muted">
-            Check out some of my .
-            </h6>
-        <div class="card carouselCard" style="width:100%;">
-            <div class="card-body">
-                    <div class="bd-example" style="align-content: center;">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-
-
-
-
-                                        <p>aaaaaaa</p>
-
-
-
-
-                                    <img src="img/firstSlide.gif" class="d-block" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">                                        
-                                            <h5>First slide label</h5>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-
-
-                                        <p>aaaaaaaaaaaaaa</p>
-
-
-
-
-
-                                        <img src="img/secondSlide.gif" class="d-block" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Second slide label</h5>
-                                        </div>
-                                    </div>
-
-
-
-
-
-
-                                    <div class="carousel-item">
-
-
-
-                                        <p>aaaaaaaaaaaa</p>
-
-
-
-
-
-
-                                        <img src="img/firstSlide.gif" class="d-block" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Third slide label</h5>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div> -->
-
             <div class="line"></div>
             <div id="skills" style="padding-top: 25px;">
                     <h2>Skills</h2>
@@ -481,6 +318,7 @@
             <div class="header-seperator"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.est laborum.</p>
             </div>
+            <div class="line"></div>
 
 
             <div id="resume">
@@ -488,64 +326,82 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ia deserunt mollit anim id est laborum.</p>
         
             </div>
-            <div class="line"></div>
+            
             <div id="contact">
                     <h2>Contact</h2>
                     <div class="header-seperator"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.est laborum.</p>
-        
             </div>
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.est laborum.</p>
-
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.est laborum.</p>
-
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.est laborum.</p>
-
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.est laborum.</p>
 
         </div>
 <!--- Start Contact Section -->
 <div id="contact" class="offset">
     <footer>
-        <div class="row">    
-            <div class="col-md-7">
-                <h3 class="contact-header">I'd Love To Contact You!</h3>
-                <div class="header-seperator"></div>
 
-                <form target="_blank" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/ruthetatau@gmail.com" method="post">
-                    <fieldset id="fs-frm-inputs">
-                        
-                        <div class="form-group">
-                            <input id="full-name" type="text" name="name" class="form-control" placeholder="Enter your name." required="">
-                        </div>
-                        <div class="form-group">
-                            <input id="email-address" type="email" name="_replyto" class="form-control" placeholder="Enter your email." required="">
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" class="form-control" placeholder="Add your message." rows="6" required="required"></textarea> 
-                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                        </div>
-                        </fieldset>
-                        <input type="submit" name="submit" id="submit" class="btn btn-outline-light btn-sm" value="SEND MESSAGE">
-                </form>
-            </div>
-            <div class="col-md-5">
-                <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Font awesome's icons-->
-                <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            </div>
-    
-    
-            
-        
-        <hr class="socket">
+
+
+
+        <section class="contact-wrap">
+        <div class="card" > 
+            <div class="container-fluid">  
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3 class="contact-header">I'd Love To Contact You!</h3>
+                        <!-- <div class="header-seperator"></div> -->
+                        <h4 class="contact-subtitle">Please leave me an email to discuss stuff. I will get back to you as soon as possible!</h4>
+                        <form class="contact-form" target="_blank" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/louishinohara@gmail.com" method="post">
+                            <fieldset id="fs-frm-inputs">
+
+                                <div class="contact-block">
+                                    <div class="row">
+                                        <div class="form-group col-md-6 input-block">
+                                            <label for="">Your Name*</label>
+                                            <input id="full-name" type="text" name="name" class="form-control" required="">  
+                                        </div>
+
+                                        <div class="form-group col-md-6 input-block">
+                                            <label for="">Your Email*</label>
+                                            <input id="email-address" type="email" name="_replyto" class="form-control"  required="">
+                                        </div>
+
+                                        <div class="form-group col-md-12 input-block">
+                                            <label for="">Drop your message here</label>
+                                            <textarea id="message" name="message" class="form-control" rows="3" required="required"></textarea> 
+                                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                                        </div>
+                                    </div>
+                                </div>
+                                    <input type="submit" name="submit" id="submit" class="btn btn-md contact-btn" style="justify-content: right;"value="SEND MESSAGE">
+                                </fieldset>
+                            </form>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="my-info">
+                                    <h4 class="contact-subheader"><i class="fas fa-phone-alt"></i>Phone <i class="fas fa-phone-alt"></i></h4>
+                                    <p>(201)-398-8872</p> 
+                            </div>
+                            <div class="my-info">
+                                    <h4 class="contact-subheader"><i class="fas fa-home"></i>Address <i class="fas fa-home"></i></h4>
+                                    <p>Highland Park, NJ</p>
+                            </div>
+                            <div class="my-info">
+                                    <h4 class="contact-subheader"><i class="fas fa-envelope"></i>Email <i class="fas fa-envelope"></i></h4>
+                                    <p style="font-size: 0.85rem;">ushio.shinohara@rutgers.edu</p>
+                            </div>
+                            <div class="contact-icons" >
+                            <h4 class="contact-subheader"><i class="fas fa-hashtag"></i>Connect<i class="fas fa-plug"></i></h4>
+                                <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
+                                <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+                                <a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
+                                <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                                                
+                    </div>
+                </div>   
+            </div> 
+        </section>
     </footer>
     </div>
-
     
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -58,14 +58,17 @@ i,
 span {
     display: inline-block;
 }
+
+#top-navbar ul li a:hover{ /* TO HIGHLIGHT LINKS ON TOP RIGHT  */
+    color: #7386D5;
+}
 /* ---------------------------------------------------
-    NAVBAR HIGLIGHT SECTION
+    SIDENAVBAR HIGLIGHT SECTION
 ----------------------------------------------------- */
 .navbar-nav .nav-link.active {
     color: #7386D5;
     background: #fafafa;
 }
-
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -269,6 +272,7 @@ ul.CTAs a {
     color: black;
     font-size: 2.4rem;
 }
+
 .header-seperator {
     height: 5px;
     width: 60px;
@@ -305,10 +309,7 @@ ul.CTAs a {
     background: linear-gradient(200deg, #7386D5 10%, white 10%);
 }
 
-.btn-space{
-    margin: 3px;
-    margin-top: 50px;
-}
+
 /* ==================================================
                     PORTFOLIO SECTION                                 
 ===================================================== */
@@ -337,29 +338,29 @@ ul.CTAs a {
 /* ==================================================
           FOOTER AND CONTACT SECTION                              
 ===================================================== */
+.contact-icons{
+    margin:24px;
+}
+.my-info{
+    margin:24px;
+}
 .contact-icons:hover {
     background-color: white;
     color: #7386D5;
 }
 .contact-header{
-    color:black;
+    color:#7386D5;
 }
 footer {
     background-size: cover;
-    color: white;
+    color: #fafafa;
 }
-footer .row {
-    background-color: black;
+/* footer .row {
     padding: 1rem 2rem 3rem;
-}
-
-footer img {
-    height: 2rem;
-    margin: 1.5rem 0;
-}
+} */
 
 footer a {
-    color: white;
+    color: rgb(110, 109, 109);
 }
 
 footer svg.svg-inline--fa{
@@ -368,48 +369,99 @@ footer svg.svg-inline--fa{
 }
 
 footer svg.svg-inline--fa:hover {
-    color: #CC0033!important;
+    color: #7386D5!important;
 }
 
 footer h3 {
     text-transform: uppercase;
     margin: 1.5rem 0;
 }
+.contact-subtitle {
+    color: grey;
+    opacity: 0.6;
+    font-size: 1rem;
+}
+.contact-form{
+    padding: none!important;
+    align-content: left;
+}
+.contact-subheader{
+    font-size: 1.4rem;
+    color: #7386D5;
+}
+.contact-btn{
+    color:whitesmoke;
+    background: #7386D5;
+    border-color: #7386D5;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.btn-outline-light {
+    color:#7386D5!important;
+}
 
-/*=========================== 
-        Contact Section
- ============================*/
 .form-group {
     margin-bottom: .6rem;
 }
 
 .form-control {
-    background-color: #53595f;
-    border-radius: 0;
-    border:.15rem solid#666B71;
-    color: white!important;
-    font-size: 1.1rem;
+    /* border-radius: 0;
+    border: none;
+    border-bottom:.15rem solid#666B71;
+    color: black!important;
+    font-size: 1.1rem; */
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    border-bottom:.15rem solid#666B71;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
 }
-
-.form-control:focus {
-    background: #53595f;
+.contact-block{
+    padding:none!important;
+}
+/* .form-control:focus {
     border: .15rem solid#666B71;
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
     color: #a3a3a1!important;
-}
+} */
 
-input.btn {
+.input.btn {
     cursor: pointer;
     /*border: .15rem solid#666B71; */
 }
 
+.input-block {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+label {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    display: block;
+    margin: 0;
+    z-index: 1;
+    color: black;
+    font-size: 18px;
+    line-height: 10px;
+}
 hr.socket {
     border-top: .2rem solid#666b71;
     width:100%
 }
+
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
@@ -473,3 +525,4 @@ hr.socket {
         display: none;
     }
 }
+
