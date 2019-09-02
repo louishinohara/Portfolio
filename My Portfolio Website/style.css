@@ -625,7 +625,7 @@ transform: translateY(-10px);
   align-items: center;
   transition: .5s;
 }
-.skill-img:after{
+/* .skill-img:after{
   content: '';
   position: absolute;
   top: 0;
@@ -634,7 +634,7 @@ transform: translateY(-10px);
   height: 90px;
   background: rgba(100, 100, 100, 0.5);
   border-radius: 45px 0 0 45px;
-}
+} */
 .skill-title h3{
   color: black;
   margin-top: 0.5rem;
