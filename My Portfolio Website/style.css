@@ -560,7 +560,7 @@ ul.CTAs a {
   border-radius: 2px;
 } */
 .skill-container{
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(3,1fr);
   justify-content: center;
   align-items:center;
@@ -568,12 +568,14 @@ ul.CTAs a {
   grid-gap: 1rem;
   padding: 1rem 80px;
   font-size: 1.2rem;
+  align:center;
 }
 
 .skill-box{
   padding: 1rem;
   color: #ddd;
   cursor: pointer;
+  margin: 1rem;
 }
 
 .skill-box:hover > .skill-title:after, 
@@ -652,11 +654,13 @@ transform: translateY(-10px);
   height:90px;
   position: relative;
   border-radius: 45px;
-  background-color: #fff;
+  /* background-color: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
   transition: .5s;
+  box-shadow: 1px 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 0.3rem;
 }
 .software-icon{
   width: 5rem;
