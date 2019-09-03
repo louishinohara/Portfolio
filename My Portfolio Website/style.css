@@ -644,7 +644,29 @@ transform: translateY(-10px);
     height: 6rem;
     border-radius: 50%;
 }
+/* ==================================================
+          SOFTWARE SECTION                              
+===================================================== */
+.software-img{
+  width:90px;
+  height:90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+.software-icon{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
 
+.software-img:hover{
+  transform: translateY(-15px);
+  }
 /* ==================================================
           WORK EXPERIENCE SECTION                              
 ===================================================== */
