@@ -317,10 +317,6 @@ ul.CTAs a {
     width: 80%
 } 
 .about-title {
-  color:black;
-  font-size: 2.4rem;
-}
-.card-title {
     /* color: black; */
     display: inline-block;
     font-size: 2.4rem;
@@ -336,6 +332,11 @@ ul.CTAs a {
     /* color: #555; */
     margin-top: 20px;
     letter-spacing: 0;
+}
+.card-title {
+
+    color:black;
+    font-size: 2.4rem;
 }
 
 .header-seperator {
