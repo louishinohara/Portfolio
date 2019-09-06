@@ -1,0 +1,818 @@
+<!-- https://bootstrapious.com/p/bootstrap-sidebar -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Louis Shinohara</title>
+
+    <!-- Boostrap File -->
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+    <!--CSS -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/waypoints.css">
+    
+</head>
+<body data-spy="scroll" data-target="#sidebar" class="background">
+    <!--======================== 
+        START SIDEBAR SECTION 
+        ========================= -->
+    <div class="wrapper sidebar">
+        <!-- Sidebar  -->
+        <nav class="sidebar-nav sticky-top os-animation" id="sidebar">
+            <ul class="navbar-nav sticky-top components">
+                <div class="sidebar-header">
+                <a href="#home">
+                    <img class="sidebar-pic center" src="img/me.png"> 
+                    <h3 style="padding-top: 10px; text-align: center; font-size: 1.1rem;">LOUIS SHINOHARA</h3>
+                    <strong>LS</strong>
+                </a>
+                </div>
+
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify"></i>
+                 </button>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">
+                        <i class="fas fa-code"></i>
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                             <i class="fas fa-wrench"></i>
+                            Skills
+                        </a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#work" >
+                            <i class="fas fa-briefcase"></i> 
+                           Work Experience
+                        </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        <i class="fas fa-mobile-alt"></i>
+                        Contact
+                    </a>
+                </li>
+
+                <!-- <ul>
+                    <div class="contact-icons">
+                        <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
+                        <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+                        <a href="#"><i class="fab fa-github-square"></i></a>  
+                        <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fas fa-envelope-square"></i></a>                   
+                    </div>
+                </ul> -->
+            </ul>
+            <ul>
+                <li class="nav-item nav-link">
+                    <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+               <!--- Top Scroll -->
+            <a href="#home" class="top-scroll">
+                <i class="fas fa-angle-up"></i>
+             </a>
+                 
+        <!--- End of Top Scroll -->
+
+         <!--==================== 
+            END SIDEBAR SECTION 
+        ========================= -->
+        </nav> 
+
+         <!--================== 
+            START TOP NAVIGATION BAR 
+            ========================= -->
+        <div id="home" class="container-fluid topBar" >
+            <nav id="top-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid os-animation" data-animation="fadeIn" data-delay=".2s">
+                        <button type="button" id="sidebarCollapse" class="text-left btn btn-info" style="background-color: #7386D5; border-color: #7386D5;">
+                                <i class="fas fa-align-left"></i>
+                                    <!-- <span>Louis Shinohara</span> -->
+                            </button>
+                    <h3 style="padding-top: 10px;" data-delay=".3s">Louis Shinohara</h3>
+
+                    <div class="collapse navbar-collapse blah" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto navbar-text">
+                            <div class="row">
+                            <li class="nav-item navbar-item">
+                                <a target="_blank" href="https://github.com/louishinohara">Github<i class="fab fa-github-square"></i></a>
+                            </li>
+                            <li class="nav-item navbar-item">
+                                <a target="_blank" href="https://www.linkedin.com/in/louishinohara/">| LinkedIn <i class="fab fa-linkedin"></i></a><!--  -->
+                            </li>
+                            <li class="nav-item navbar-item">
+                                <a href="Resume.pdf" target="_blank" class="download">| Resume <i class="fas fa-file"></i></a>
+                            </li>
+                        </div>
+                        </ul> 
+                    </div>
+                </div>    
+            </nav>
+             <!--==================== 
+                END TOP NAVIGATION  BAR 
+                ====================== -->    
+
+            <!-- LEAVE THIS DIV OPEN -->
+
+             <!--==================== 
+                START  ABOUT SECTION CARD
+            ========================= -->
+		<div class="home">
+            <div class="card rounded">
+				<div class="row">  
+                    <div class="col-md-5" >
+                        <img src="img/aboutMe.JPG" class="card-img-top h-100 rounded-left" alt="...">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title"> 	
+                                <div class="col-12 os-animation" data-animation="fadeInUp"></div>
+                                About Me
+                                <div class="header-seperator"></div>
+                            </h5>
+                            <div class="row">
+                                <div class="column">
+                            <h5 class="card-subtitle mb-2 text-muted">Computer Engineering Student</h5>
+
+<!--=========================
+    START BUTTONS ON ABOUT
+============================= -->
+                         <div class="btn-toolbar" style="justify-content: left;">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
+                            Education <i class="fas fa-graduation-cap"></i>
+                            </button>
+                    <div class="modal fade" id="education" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Education</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                            <div class="modal-body">
+                                <ul>
+                              <p>Rutgers University New Brunswick</p>
+                              <li>Bachelors in Computer Engineering</li>
+                              <li>Expected Graduation: May 2021</li>
+                              <li>GPA: 3.695</li>
+                              <li>Dean's List: All Semesters</li>
+                            </ul>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                    </div>
+<!--============================
+    END BUTTONS ON ABOUT 
+================================ -->
+                </div>
+                </div>
+            </div>
+                </div>
+            </div>     
+        </div>
+                <p class="card-text aboutCaption" ><span style="font-weight: 500; font-size: 3rem;">H</span>ello! My name is Ushio Louis Shinohara. I am currently a third year college student studying computer engineering at Rutgers University New Brunswick. I used to be a business major but after discovering my passion for science and innovation, I switched my major to engineering. I am a self made software developer with an intended career in software engineering. I am actively looking for an internship for next summer. Check out some of my work and I can't wait to hear back from you!
+                </p>
+                         </div>
+<!--========================= 
+    END   ABOUT  SECTION CARD
+========================= -->
+ 
+            </div>
+        </div>
+ 
+<!--============================
+    START PORTFOLIO GRID
+================================ -->
+  <section class="page-section" id="portfolio">
+    <div class="container" style="padding-top: 100px;">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+            <h5 class="card-title">Coding Projects</h5>
+            <div class="header-seperator"style="display:inline-block"></div>
+          <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>   
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-content/rush.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>RUsh</h4>
+            <p class="text-muted">Swift</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-content/OT-site.gif" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>ThetaTau Website</h4>
+            <p class="text-muted">Web Development</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-content/imageBlur.gif" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Image Blur</h4>
+            <p class="text-muted">MATLAB</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-content/calc.gif" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Calculator App</h4>
+            <p class="text-muted">Swift</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-content/gameoflifetemp.gif" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Weather Something</h4>
+            <p class="text-muted">Web Development</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-content/gameOfLifetemp.gif" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Game of Life</h4>
+            <p class="text-muted">MATLAB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>thetatau.rutgers.edu</h2>
+                <p class="item-intro text-muted">Web Development</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/OT-site.gif" alt="">
+                <p>After being elected webmaster of my fraternity, I made the offer to redesign our old website and add more content. Using html 5, css 3, javascript and boostrap, I coded our fraternities website without using any templates. As my first web development project, it was challenging but google was my best friend and I am proud to have created a product which is the home page of my fraternity.</p>
+                <ul class="list-inline">
+                  <li>Date: Summer 2019</li>
+                  <li>ADD LINK SOMEWHERE?</li>
+                  
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button><a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">RUsh</h2>
+                <p class="item-intro text-muted">Swift</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/rush.png" alt="">
+                <p></p>
+                <ul class="list-inline">
+                  <li>Date: August 2019</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Image Blur</h2>
+                <p class="item-intro text-muted">MATLAB</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/imageBlur.gif" alt="">
+                <p>ImageBlur was my final project for my first year of engineering coding class. By seperating the image into three different rgb layers, I then used those values and created a matrice for them. By using an equation that takes the average of a 'pixels' neighbor and creating an updated matrix, we were able to achieve the blur look.</p>
+                <ul class="list-inline">
+                  <li>Date: December 2018</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Weather Thing</h2>
+                <p class="item-intro text-muted">Swift</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: September 2019</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Calculator App</h2>
+                <p class="item-intro text-muted">Swift</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/calculator.gif" alt="">
+                <p>After gaining interest in app development, I decided to pick up swift during my winterbreak and to create my own project. During the winter, I created my very own calculator app from scratch. Some of the major challenges I faced was taking the string value of a number and converting it into a float or integer. It was also difficult to work with decimal places as well as figuring out how to use the clear button. What I did was create a que variable in which all the values were converted from string to int or float and other variables to perform the operations.</p>
+                <ul class="list-inline">
+                  <li>Date: January 2019</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Game of Life</h2>
+                <p class="item-intro text-muted">MATLAB</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/gameOfLife.gif" alt="">
+                <p>Game of Life mimics John Conway's one player simulation game. The concept is that ... </p>
+                <ul class="list-inline">
+                  <li>Date: November 2018</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="line"></div> -->
+<!--============================
+    END PORTFOLIO GRID
+================================ -->
+
+<!--============================
+    START SKILLS SECTION
+============================ -->
+<div id="skills">
+    <div class="inner">
+      <div class="header">
+        <h1 class="card-title">My Skills</h1>
+        <div class="header-seperator"style="display:inline-block"></div>
+        <h6 class="section-subheading mb-2 text-muted" style="padding-bottom: 10px;">Some of my skills and programs I've worked with</h6>   
+      </div>
+      <div class="skill-container container" >
+        <!-- d-flex -->
+        <div class="row justify-content-center">
+        <div class="skill-box">
+            <div class="skill-title">
+              <div class="skill-img">
+                <img src="img/skill-icon/html5.png" class="skill-icon">
+              </div>
+              <h3> HTML 5</h3>
+            </div>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p> -->
+          </div>
+
+          <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img src="img/skill-icon/css3.png" class="skill-icon">
+                </div>
+                <h3> CSS 3</h3>
+              </div>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                  <div class="skill-img">
+                    <img src="img/skill-icon/python.png" class="skill-icon">
+                  </div>
+                  <h3> Python</h3>
+                </div>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
+              </div>
+              
+              <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="skill-img">
+                      <img src="img/skill-icon/c++.png" class="skill-icon">
+                    </div>
+                    <h3> C++</h3>
+                  </div>
+                  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-title">
+                      <div class="skill-img">
+                        <img src="img/skill-icon/swift.png" class="skill-icon">
+                      </div>
+                      <h3> Swift</h3>
+                    </div>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
+                </div>
+              </div>
+    </div>
+
+</div>
+<!-- <div class="line"></div> -->
+
+<!--============================
+END SKILLS SECTION
+================================ -->
+
+<!--============================
+START SOFTWARE SECTION
+================================ -->
+<div id="software">
+    <div class="col-lg-12 text-center">
+      <h5 class="card-title">Familiar Programs</h5>
+      <div class="header-seperator"style="display:inline-block"></div>
+      <h3 class="section-subheading text-muted">Software and programs I have extensively worked with</h3><br><br>
+    </div>
+    <div class="container"></div>
+    <div class="row justify-content-center">
+        <div class="software-img ">
+          <img src="img/software-icon/visual-studio-code.png" class="software-icon">
+        </div>
+        <div class="software-img ">
+          <img src="img/software-icon/boostrap.png" class="software-icon">
+        </div>
+        <div class="software-img ">
+          <img src="img/software-icon/x-code.png" class="software-icon">
+        </div>
+        <div class="software-img">
+          <img src="img/software-icon/firebase.png" class="software-icon">
+        </div>
+        <div class="software-img">
+            <img src="img/software-icon/matlab.png" class="software-icon">
+        </div>
+        <div class="software-img">
+          <img src="img/software-icon/lt-spice.png" class="software-icon">
+        </div>
+        <div class="software-img">
+          <img src="img/software-icon/maple.png" class="software-icon">
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--============================
+END SOFTWARE SECTION
+================================ -->
+
+
+<!--============================
+    START WORK EXPERIENCE SECTION
+================================ -->
+  <section class="page-section" id="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h5 class="card-title" style="padding-top: 100px;">My Work Experience</h5>
+          <div class="header-seperator"style="display:inline-block"></div>
+          <h3 class="section-subheading text-muted">Here are some of the places I've worked at</h3><br><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/work/kids.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="work-title">Kids International Weekend School of New Jersey</h4>
+                  <h4 class="work-date">June 2014 - September 2016</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">At the Kids International Weekend School of NJ, I was an assistant teacher and worked with kids from grades 1 to 3. I also did a lot of office work such as keeping track of grades, attendance using excel. One of the projects I worked on here was creating a yearbook for the school. </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/work/dellridge.jpeg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="work-title">Dellridge Health and Rehabilitation Center</h4>
+                  <h4 class="work-date">September 2015 - August 2018</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">As a Dietary Aide Supervisor, I took on the role as a leader to assimilate new employees into the work environment. It has allowed me to grow as a person by... </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="work-title">Office of Information Technology</h4>
+                  <h4 class="work-date">May 2019 - Present</h4>
+                  
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">As a ResNet Certified Oit Dispatch Consulant, my role is to go out into the field and assistant patrons in troubleshooting their technological devices. This job is a great mix of customer service with technology and has prepared me to enter the work force.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="work-title">Cypher City</h4>
+                  <h4 class="work-date">July 2019 - Present</h4>   
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">As an intern at Cypher City, my role as the lead iOS developer was to take the flowchart which was provided by the CEO and create a working application.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Be Part
+                  <br>Of My
+                  <br>Story!</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="line"></div>
+
+<!--============================
+   END EXPERIENCE SECTION
+================================ -->
+
+<!---============================
+   Start Contact Section 
+=================================-->
+<div id="contact" class="offset">
+    <footer>
+        <section class="contact-wrap">
+        <div class="" >
+            <div class="col-lg-12 text-left">
+                <h5 class="card-title">Want to Connect with Me?</h5>
+                <div class="header-seperator"style="display:inline-block" ></div>
+              <!-- <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>    -->
+            </div>
+            <div class="container-fluid">  
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- <h3 class="contact-header">I'd Love To Contact You!</h3> -->
+                        <!-- <h3 class="contact-header"> </h3> -->
+                        <!-- <div class="header-seperator"></div> -->
+                        <h4 class="contact-subtitle" style="padding-bottom: 50px;">Please feel free to reach out and leave me an email. <br> I will get back to you as soon as possible!</h4>
+                        <form class="contact-form" target="_blank" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/louishinohara@gmail.com" method="post">
+                            <fieldset id="fs-frm-inputs">
+
+                                <div class="contact-block">
+                                    <div class="row">
+                                        <div class="form-group col-md-6 input-block">
+                                            <label for="">Your Name*</label>
+                                            <input id="full-name" type="text" name="name" class="form-control" required="">  
+                                        </div>
+
+                                        <div class="form-group col-md-6 input-block">
+                                            <label for="">Your Email*</label>
+                                            <input id="email-address" type="email" name="_replyto" class="form-control"  required="">
+                                        </div>
+
+                                        <div class="form-group col-md-12 input-block">
+                                            <label for="">Drop your message here</label>
+                                            <textarea id="message" name="message" class="form-control" rows="2" required="required"></textarea> 
+                                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                                        </div>
+                                    </div>
+                                </div>
+                                    <input type="submit" name="submit" id="submit" class="btn btn-md contact-btn" style="justify-content: right;"value="SEND MESSAGE">
+                                </fieldset>
+                            </form>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="my-info">
+                                <h4 class="contact-subheader"><i class="fas fa-phone-alt" style=></i>Phone</h4>
+                                <p>(201) 398-8872</p> 
+                        </div>
+                        <div class="my-info">
+                                <h4 class="contact-subheader"><i class="fas fa-home"></i>Address</h4>
+                                <p>Highland Park, NJ</p>
+                        </div>
+                        <div class="my-info">
+                                <h4 class="contact-subheader"><i class="fas fa-envelope"></i>Email</h4>
+                                <p style="font-size: 0.85rem;">ushio.shinohara@rutgers.edu</p>
+                        </div>
+                        <div class="contact-icons" >
+                        <h4 class="contact-subheader"><i class="fas fa-plug"></i>Connect</h4>
+                            <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
+                            <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+                            <a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
+                            <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                                            
+                </div>
+                </div> 
+                  
+            </div> 
+        </section>
+    </footer>
+</div>
+    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+     <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    
+    <script src="js/custom.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
+

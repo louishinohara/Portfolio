@@ -33,8 +33,10 @@
                 <div class="sidebar-header">
                 <a href="#home">
                     <img class="sidebar-pic center" src="img/me.png"> 
-                    <h3 style="padding-top: 10px; text-align: center; font-size: 1.1rem;">LOUIS SHINOHARA</h3>
-                    <strong>LS</strong>
+                    <h3 class="header-name">LOUIS SHINOHARA</h3>
+                    <strong>  
+                      LS                      
+                    </strong>
                 </a>
                 </div>
 
@@ -71,28 +73,14 @@
                         Contact
                     </a>
                 </li>
-
-                <!-- <ul>
-                    <div class="contact-icons">
-                        <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
-                        <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
-                        <a href="#"><i class="fab fa-github-square"></i></a>  
-                        <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fas fa-envelope-square"></i></a>                   
-                    </div>
-                </ul> -->
-            </ul>
-            <ul>
-                <li class="nav-item nav-link">
-                    <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-                </li>
             </ul>
 
-               <!--- Top Scroll -->
+        <!--- Top Scroll -->
             <a href="#home" class="top-scroll">
                 <i class="fas fa-angle-up"></i>
              </a>
+             <!-- <div class="sidebar-menu-icon"></div> -->
+             
                  
         <!--- End of Top Scroll -->
 
@@ -105,12 +93,13 @@
             START TOP NAVIGATION BAR 
             ========================= -->
         <div id="home" class="container-fluid topBar" >
-            <nav id="top-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav id="top-navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed">
                 <div class="container-fluid os-animation" data-animation="fadeIn" data-delay=".2s">
-                        <button type="button" id="sidebarCollapse" class="text-left btn btn-info" style="background-color: #7386D5; border-color: #7386D5;">
-                                <i class="fas fa-align-left"></i>
-                                    <!-- <span>Louis Shinohara</span> -->
-                            </button>
+                    <div class="menu-button">
+                        <button type="button" id="sidebarCollapse" class="text-left btn btn-info " style="font-size: 1.7rem; background-color: transparent; border-color: transparent; color: #7386D5;">
+                            <i class="fas fa-bars"></i>
+                         </button> 
+                      </div>
                     <h3 style="padding-top: 10px;" data-delay=".3s">Louis Shinohara</h3>
 
                     <div class="collapse navbar-collapse blah" id="navbarSupportedContent">
@@ -139,7 +128,7 @@
              <!--==================== 
                 START  ABOUT SECTION CARD
             ========================= -->
-		<div class="home">
+		<div id="aboutMeCard" class="home" style="padding-top: 75px;">
             <div class="card rounded">
 				<div class="row">  
                     <div class="col-md-5" >
@@ -517,6 +506,7 @@
 <!--============================
     START SKILLS SECTION
 ============================ -->
+<div class="jumbotron">
 <div id="skills">
     <div class="inner">
       <div class="header">
@@ -621,6 +611,7 @@ START SOFTWARE SECTION
     </div>
   </div>
 </div>
+</div>
 
 <!--============================
 END SOFTWARE SECTION
@@ -721,17 +712,42 @@ END SOFTWARE SECTION
    Start Contact Section 
 =================================-->
 <div id="contact" class="offset">
-    <footer>
+    <footer class="jumbotron">
         <section class="contact-wrap">
         <div class="" >
-            <div class="col-lg-12 text-left">
-                <h5 class="card-title">Want to Connect with Me?</h5>
-                <div class="header-seperator"style="display:inline-block" ></div>
-              <!-- <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>    -->
-            </div>
+
             <div class="container-fluid">  
                 <div class="row">
+                    <div class="col-md-4">
+                        <div class="my-info">
+                                <h4 class="contact-subheader"><i class="fas fa-phone-alt" style=></i>Phone</h4>
+                                <p>(201) 398-8872</p> 
+                        </div>
+                        <div class="my-info">
+                                <h4 class="contact-subheader"><i class="fas fa-home"></i>Address</h4>
+                                <p>Highland Park, NJ</p>
+                        </div>
+                        <div class="my-info">
+                                <h4 class="contact-subheader"><i class="fas fa-envelope"></i>Email</h4>
+                                <p style="font-size: 0.85rem;">ushio.shinohara@rutgers.edu</p>
+                        </div>
+                        <div class="contact-icons" >
+                        <h4 class="contact-subheader"><i class="fas fa-plug"></i>Connect</h4>
+                            <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
+                            <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+                            <a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
+                            <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                                            
+                </div>
+                
                     <div class="col-md-8">
+                        <div class="col-lg-12 text-left">
+                            <h5 class="card-title">Want to Connect with Me?</h5>
+                            <div class="header-seperator"style="display: center" ></div>
+                          <!-- <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>    -->
+                        </div>
                         <!-- <h3 class="contact-header">I'd Love To Contact You!</h3> -->
                         <!-- <h3 class="contact-header"> </h3> -->
                         <!-- <div class="header-seperator"></div> -->
@@ -762,29 +778,6 @@ END SOFTWARE SECTION
                                 </fieldset>
                             </form>
                     </div>
-                    <div class="col-md-4">
-                        <div class="my-info">
-                                <h4 class="contact-subheader"><i class="fas fa-phone-alt" style=></i>Phone</h4>
-                                <p>(201) 398-8872</p> 
-                        </div>
-                        <div class="my-info">
-                                <h4 class="contact-subheader"><i class="fas fa-home"></i>Address</h4>
-                                <p>Highland Park, NJ</p>
-                        </div>
-                        <div class="my-info">
-                                <h4 class="contact-subheader"><i class="fas fa-envelope"></i>Email</h4>
-                                <p style="font-size: 0.85rem;">ushio.shinohara@rutgers.edu</p>
-                        </div>
-                        <div class="contact-icons" >
-                        <h4 class="contact-subheader"><i class="fas fa-plug"></i>Connect</h4>
-                            <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
-                            <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
-                            <a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
-                            <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                                            
-                </div>
                 </div> 
                   
             </div> 

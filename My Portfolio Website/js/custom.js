@@ -1,10 +1,3 @@
-$(document).ready(function () {
-
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
-
-});
 /*========== NAVBAR TRANSPARENT TO SOLID ==========*/
 
 $(document).ready(function() { //when document(DOM) loads completely. 
@@ -17,6 +10,15 @@ $(document).ready(function() { //when document(DOM) loads completely.
         $('.navbar').removeClass('solid'); //remove class 'solid' in any element which has class 'navbar'
     }
   });
+});
+
+
+/*========== SIDEBAR COLLAPSE ==========*/
+$(document).ready(function () {
+  $('#sidebarCollapse').on('click', function () {
+      $('#sidebar').toggleClass('active');
+  });
+
 });
 
 /*========== SMOOTH SCROLL ==========*/
