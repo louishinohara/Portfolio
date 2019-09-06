@@ -36,7 +36,7 @@ a:focus {
 }
 
 .navbar.solid {
-  background: rgba(255, 255, 255, 0.7)!important;
+  background: rgba(255, 255, 255, 0.9)!important;
   transition: background-color 1s ease 0s;
 }
 
