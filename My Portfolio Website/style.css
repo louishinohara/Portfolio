@@ -23,15 +23,15 @@ a:focus {
     transition: all 0.5s;
 }
 
+
 .element.style{
   padding:none!important;
 }
 .container-fluid{
   padding:none!important;
 }
-.jumbotron {
-  margin: none!important;
-}
+
+
 /* ---------------------------------------------------
     NAVBAR
 ----------------------------------------------------- */
@@ -319,7 +319,9 @@ ul.CTAs a {
     ================ */
 
 .about-background{
-  background: linear-gradient(180deg, #7386D5 70%, transparent 0%);
+  /* background: linear-gradient(180deg, #7386D5 55%, #D3D3D3 100%); */
+  background-color: #7386D5;
+  padding-bottom: 75px;
 }
 .card {
     background-color: #fff;
@@ -346,11 +348,12 @@ ul.CTAs a {
     letter-spacing: 0;
 }
 .card-title {
-
     color:black;
     font-size: 2.4rem;
 }
-
+.about-padding{
+  padding-left:1.25rem;
+}
 .header-seperator {
     height: 5px;
     width: 60px;
@@ -392,6 +395,10 @@ ul.CTAs a {
 /* ==================================================
                     PORTFOLIO GRID SECTION                                 
 ===================================================== */
+.portfolio-background {
+  /* background: linear-gradient(180deg, #D3D3D3 55%, #DCDCDC 100%); */
+  background-color: rgb(221, 220, 220);
+}
 
 #portfolio .portfolio-item {
     right: 0;
@@ -690,7 +697,10 @@ transform: translateY(-10px);
           WORK EXPERIENCE SECTION                              
 ===================================================== */
 
-  .timeline {
+.page-section{
+  background: linear-gradient(180deg, rgb(246, 245, 245) 55%, #fff 100%);
+} 
+.timeline {
     position: relative;
     padding: 0;
     list-style: none;
@@ -884,9 +894,7 @@ transform: translateY(-10px);
 /* ==================================================
           FOOTER AND CONTACT SECTION                              
 ===================================================== */
-/* .contact-wrap{
-    background: linear-gradient(200deg, #7386D5 50%, white 20%);
-} */
+
 .contact-icons{
     margin:24px;
 }
@@ -894,11 +902,14 @@ transform: translateY(-10px);
     margin:24px;
 }
 .contact-icons:hover {
-    background-color: white;
+    background-color: transparent;
     color: #7386D5;
 }
 .contact-header{
     color:#7386D5;
+}
+.contact-background{
+  background-color: #fff;
 }
 footer {
     background-size: cover;
@@ -930,6 +941,8 @@ footer h3 {
     color: grey;
     opacity: 0.6;
     font-size: 1rem;
+    padding-left:15px;
+    padding-bottom: 10px!important;
 }
 .contact-form{
     padding: none!important;
@@ -1034,6 +1047,16 @@ input[type=hidden]:focus {
     .header-seperator{ 
         justify-content: center;
         /* CENTER ON MOBILE UNDERLINE */
+    }
+    .header-seperator {
+      margin:auto;
+    }
+    .education-button {
+      text-align:center;
+    }
+    .sidebar-pic{
+      height: 1rem;
+      width: 1rem;
     }
 }
 
