@@ -1,5 +1,4 @@
 /*========== NAVBAR TRANSPARENT TO SOLID ==========*/
-
 $(document).ready(function() { //when document(DOM) loads completely. 
   // Transition effect for navbar 
   $(window).scroll(function() { //function is called while you scrolls 

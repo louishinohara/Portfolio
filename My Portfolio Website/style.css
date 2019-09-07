@@ -23,6 +23,15 @@ a:focus {
     transition: all 0.5s;
 }
 
+.element.style{
+  padding:none!important;
+}
+.container-fluid{
+  padding:none!important;
+}
+.jumbotron {
+  margin: none!important;
+}
 /* ---------------------------------------------------
     NAVBAR
 ----------------------------------------------------- */
@@ -69,7 +78,7 @@ span {
 #top-navbar{
   position: fixed;
   top: 0px;
-  width: 97%;
+  width: 99%;
   z-index: 99999;
 }
 #top-navbar ul li a:hover{ /* TO HIGHLIGHT LINKS ON TOP RIGHT  */
@@ -1001,7 +1010,18 @@ hr.socket {
     border-top: .2rem solid#666b71;
     width:100%
 }
-
+input[type=text]:focus {
+  background-color: transparent;
+  outline: none;
+}
+input[type=email]:focus {
+  background-color: transparent;
+  outline: none;
+}
+input[type=hidden]:focus {
+  background-color: transparent;
+  outline: none;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
