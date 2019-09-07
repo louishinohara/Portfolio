@@ -318,7 +318,7 @@ ul.CTAs a {
 
 .about-background{
   background: linear-gradient(180deg, #7386D5 55%, rgb(246, 246, 246) 100%);
-  /* background-color: #7386D5; */
+  /* width:99.5%; */
   padding-bottom: 75px;
 }
 .card {
@@ -394,9 +394,7 @@ ul.CTAs a {
                     PORTFOLIO GRID SECTION                                 
 ===================================================== */
 .portfolio-background {
-  /* background: linear-gradient(180deg, #D3D3D3 55%, #DCDCDC 100%); */
-  background-color:rgb(243, 243, 243)
-   rgb(221, 220, 220);
+  background-color:rgb(246, 246, 246);
 }
 
 #portfolio .portfolio-item {
@@ -451,7 +449,7 @@ ul.CTAs a {
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(233, 233, 233);
   }
   
   #portfolio .portfolio-item .portfolio-caption h4 {
@@ -718,7 +716,7 @@ transform: translateY(-10px);
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: #e9ecef;
+    background-color: #cccccc;
   }
   
   .timeline > li {
