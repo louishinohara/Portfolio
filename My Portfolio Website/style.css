@@ -97,9 +97,7 @@ span {
 
 .wrapper {
     display: flex;
-    align-items: stretch;
-    
-    
+    align-items: stretch;  
 }
 .center {
     display: block;
@@ -319,8 +317,8 @@ ul.CTAs a {
     ================ */
 
 .about-background{
-  /* background: linear-gradient(180deg, #7386D5 55%, #D3D3D3 100%); */
-  background-color: #7386D5;
+  background: linear-gradient(180deg, #7386D5 55%, rgb(246, 246, 246) 100%);
+  /* background-color: #7386D5; */
   padding-bottom: 75px;
 }
 .card {
@@ -397,7 +395,8 @@ ul.CTAs a {
 ===================================================== */
 .portfolio-background {
   /* background: linear-gradient(180deg, #D3D3D3 55%, #DCDCDC 100%); */
-  background-color: rgb(221, 220, 220);
+  background-color:rgb(243, 243, 243)
+   rgb(221, 220, 220);
 }
 
 #portfolio .portfolio-item {
@@ -698,7 +697,7 @@ transform: translateY(-10px);
 ===================================================== */
 
 .page-section{
-  background: linear-gradient(180deg, rgb(246, 245, 245) 55%, #fff 100%);
+  background: linear-gradient(180deg,  rgb(246, 246, 246) 80%, #fff 100%);
 } 
 .timeline {
     position: relative;
