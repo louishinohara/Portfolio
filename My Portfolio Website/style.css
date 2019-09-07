@@ -345,9 +345,11 @@ ul.CTAs a {
     margin-top: 20px;
     letter-spacing: 0;
 }
-.card-title {
+.my-card-title {
     color:black;
     font-size: 2.4rem;
+    flex: 1 1 auto;
+    padding-top: 1.25rem;
 }
 .about-padding{
   padding-left:1.25rem;
@@ -361,6 +363,10 @@ ul.CTAs a {
 .card-title-subSection {
     color: black;
     font-size: 1.4rem;
+}
+.card-title{
+  color:black;
+  font-size: 2.8rem;
 }
 .card-text {
     text-align: left;
