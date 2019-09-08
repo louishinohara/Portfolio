@@ -1140,6 +1140,10 @@ input[type=hidden]:focus {
     #sidebar.active {
       text-align: center;
   }
+  .message-text{
+    font-size: 0.8rem;
+  }
+
 }
 
 
@@ -1197,6 +1201,9 @@ input[type=hidden]:focus {
     .project-title {
       font-size: 2rem;
       text-align: center;
+    }
+    .message-text{
+      font-size: 0.8rem;
     }
 }
   
