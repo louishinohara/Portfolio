@@ -139,6 +139,11 @@ span {
     transition: all 0.5s;
 }
 
+#sidebar.active,
+#navbar .navbar-nav{
+  padding-right: 500px;
+}
+
 #sidebar.active .sidebar-header h3,
 #sidebar.active .CTAs {
     display: none;
@@ -1097,8 +1102,8 @@ input[type=hidden]:focus {
       display: inline-block
     }
     .sidebar-pic{
-      height: 1rem;
-      width: 1rem;
+      height: 3rem;
+      width: 3rem;
     }
     .top-navbar-name{
       font-size: 1.5rem;
@@ -1127,15 +1132,23 @@ input[type=hidden]:focus {
       text-align: center;
       font-size: 2.1rem;
     }
+    .project-title {
+      font-size: 10px;;
+      text-align: center;
+    }
+    #sidebar.active {
+      text-align: center;
+  }
 }
 
 
 @media (max-width: 768px) {
+  .card{
+   width: 100%;
+  }
     #sidebar {
-        min-width: 80px;
-        max-width: 80px;
         text-align: center;
-        margin-left: -80px !important;
+
     }
     .dropdown-toggle::after {
         top: auto;
@@ -1176,6 +1189,10 @@ input[type=hidden]:focus {
     }
     #sidebarCollapse span {
         display: none;
+    }
+    .project-title {
+      font-size: 2rem;
+      text-align: center;
     }
 }
   
