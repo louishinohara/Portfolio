@@ -39,10 +39,6 @@
                     </strong>
                 </a>
                 </div>
-
-                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-justify"></i>
-                 </button>
                 <li class="nav-item">
                     <a class="nav-link" href="#home">
                         <i class="fas fa-home"></i>
@@ -96,11 +92,11 @@
             <nav id="top-navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed">
                 <div class="container-fluid os-animation" data-animation="fadeIn" data-delay=".2s">
                     <div class="menu-button">
-                        <button type="button" id="sidebarCollapse" class="text-left btn btn-info " style="font-size: 1.7rem; background-color: transparent; border-color: transparent; color: #7386D5;">
+                        <button type="button" id="sidebarCollapse" class="text-left btn btn-info " style="font-size: 1.7rem; background-color: transparent; border-color: transparent; color: #7386D5; " >
                             <i class="fas fa-bars"></i>
                          </button> 
                       </div>
-                    <h3 style="padding-top: 10px;" data-delay=".3s">Louis Shinohara</h3>
+                    <h3 class="top-navbar-name" data-delay=".3s">Louis Shinohara</h3>
 
                     <div class="collapse navbar-collapse blah" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto navbar-text">
@@ -148,7 +144,7 @@
 <!--=========================
     START BUTTONS ON ABOUT
 ============================= -->
-                         <div class="btn-toolbar" style="justify-content: left; padding-left: 20px;">
+                         <div class="btn-toolbar education-button" >
                             <button type="button" class="btn btn-primary education-button" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
                             Education <i class="fas fa-graduation-cap"></i>
                             </button>
@@ -165,10 +161,10 @@
                                 <span style="font-size: 1.2rem;">Rutgers University New Brunswick</span>
                                 <span style="font-size: 0.9rem;"> B.S in Computer Engineering</span>
                             <ul>
-                              <li><strong>Expected Graduation:</strong>  May 2021</li>
-                              <li><strong>Dean's List:</strong>  All Semesters</li>
-                              <li><strong>GPA:</strong> 3.695</li>
-                              <li><strong>Class Rank:</strong> 149 of 963 </li>
+                              <li class="about-list"><strong>Expected Graduation:</strong>  May 2021</li>
+                              <li class="about-list"><strong>Dean's List:</strong>  All Semesters</li>
+                              <li class="about-list"><strong>GPA:</strong> 3.695</li>
+                              <li class="about-list"><strong>Class Rank:</strong> 149 of 963 </li>
                             </ul>
                             </div>
                             <div class="modal-footer">
@@ -184,7 +180,7 @@
                 </div>
             </div>     
         </div>
-                <p class="card-text aboutCaption"><span style="font-weight: 500; font-size: 3rem;">H</span>ello! My name is Ushio Louis Shinohara. I am currently a third year computer engineering student at Rutgers University New Brunswick. I am a self taught programmer who has actively been coding for a year now. I currently do alot of work in front end development but I would like to work more with back end development. My career goal is to become a software engineer and I am currently searching for an internship in the software field for summer 2020. Feel free to check out my website which I coded without a template and some of my work. I can't wait to hear back from you!
+                <p class="card-text aboutCaption"><span style="font-weight: 500; font-size: 3rem;">H</span>ello! My name is Ushio Louis Shinohara. I am currently a third year computer engineering student at Rutgers University New Brunswick. I am a self taught programmer who has actively been coding for a year now and I currently do alot of work in front end development but would like to work more in back end development. My career goal is to become a software engineer and I am currently searching for an internship in the software field for summer 2020. Feel free to check out my website which I coded without a template and some of my work. I can't wait to hear back from you!
                 </p>
                          </div>
 <!--========================= 
@@ -197,11 +193,11 @@
 <!--============================
     START PORTFOLIO GRID
 ================================ -->
-  <section class="portfolio-background" id="portfolio" >
+  <section class="portfolio-background" id="portfolio" style="padding-top: 80px;" >
     <div class="container" >
       <div class="row">
         <div class="col-lg-12 text-center">
-            <h5 class="card-title" style="padding-top: 50px;">Coding Projects</h5>
+            <h5 class="card-title">Coding Projects</h5>
             <div class="header-seperator"style="display:inline-block"></div>
           <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>   
         </div>
@@ -219,7 +215,7 @@
             <img class="img-fluid" src="img/portfolio-content/rush.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>RUsh</h4>
+            <h4>Rush</h4>
             <p class="text-muted">Swift</p>
           </div>
         </div>
@@ -324,12 +320,22 @@
                 <p>After being elected webmaster of my fraternity, I made the offer to redesign our old website and add more content. Using html 5, css 3, javascript and boostrap, I coded our fraternities website without using any templates. As my first web development project, it was challenging but google was my best friend and I am proud to have created a product which is the home page of my fraternity.</p>
                 <ul class="list-inline">
                   <li>Date: Summer 2019</li>
-                  <li>ADD LINK SOMEWHERE?</li>
                   
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button><a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
+                <a href="https://github.com/louishinohara/ThetaTauWebsite" target="_blank"><button class="btn btn-primary modal-button"  type="button">
+                  <i class="fab fa-github"></i>
+                  View Project</button></a>
+
+                <button class="btn btn-primary modal-button" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button> 
+
+                  <a href="https://thetatau.rutgers.edu" target="_blank"><button class="btn btn-primary modal-button"  type="button">
+                  </i>
+                   Visit Site</button></a>
+
+
+
               </div>
             </div>
           </div>
@@ -352,16 +358,15 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">RUsh</h2>
+                <h2>Rush</h2>
+                <div class="header-seperator"style="display:inline-block"></div>
                 <p class="item-intro text-muted">Swift</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio-content/rush.png" alt="">
-                <p></p>
+                <p>Rutgers University is a very large school and one of the biggest issues that many students face here is transportation. Rush is an app that is currently in development which focuses on fixing that issue through carpooling. </p>
                 <ul class="list-inline">
                   <li>Date: August 2019</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <button class="btn btn-primary modal-button" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
               </div>
@@ -387,13 +392,18 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Image Blur</h2>
+                <div class="header-seperator"style="display:inline-block"></div>
                 <p class="item-intro text-muted">MATLAB</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio-content/imageBlur.gif" alt="">
-                <p>ImageBlur was my final project for my first year of engineering coding class. By seperating the image into three different rgb layers, I then used those values and created a matrice for them. By using an equation that takes the average of a 'pixels' neighbor and creating an updated matrix, we were able to achieve the blur look.</p>
+                <p>ImageBlur was my final project for my first year of engineering coding class. I chose this project because I thought it would be cool to be able to have a project which I could share with a user and allow them to choose their own image and interact with it. The task was to take an image and create a user interface which allows the user to select how much blur the image would be altered by. In order to do this I separated the RGB colors of the image into a three dimensions matrix . Then by writing the code which iterated through each ‘pixel’ value and calculated the average of its neighbors, I reassigned that value into a new three dimensional matrix which allows for this image blurring program to function thus achieving the blur look. </p>
                 <ul class="list-inline">
                   <li>Date: December 2018</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <a href="https://github.com/louishinohara/ImageBlur" target="_blank"><button class="btn btn-primary modal-button"  type="button">
+                  <i class="fab fa-github"></i>
+                  View Project</button></a>
+
+                <button class="btn btn-primary modal-button" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
               </div>
@@ -419,6 +429,7 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Weather Thing</h2>
+                <div class="header-seperator"style="display:inline-block"></div>
                 <p class="item-intro text-muted">Swift</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio-content/" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -451,13 +462,18 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Calculator App</h2>
+                <div class="header-seperator"style="display:inline-block"></div>
                 <p class="item-intro text-muted">Swift</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/calculator.gif" alt="">
-                <p>After gaining interest in app development, I decided to pick up swift during my winterbreak and to create my own project. During the winter, I created my very own calculator app from scratch. Some of the major challenges I faced was taking the string value of a number and converting it into a float or integer. It was also difficult to work with decimal places as well as figuring out how to use the clear button. What I did was create a que variable in which all the values were converted from string to int or float and other variables to perform the operations.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio-content/calc.gif" alt="">
+                <p>After gaining interest in app development, I decided to pick up swift to create my own app. During the winter, I created my very own calculator app from scratch. Some of the major challenges I faced was taking the string value of a number and converting it into a float or integer. It was also difficult to work with decimal places as well as figuring out how to use the clear button. To adress the issue of converting the value from a string to an int or flow, I created an array which acted as a que. After the user had completed entering their number, that array would be combined and converted into a numerical value.</p>
                 <ul class="list-inline">
                   <li>Date: January 2019</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <a href="https://github.com/louishinohara/Calculator" target="_blank"><button class="btn btn-primary modal-button"  type="button">
+                  <i class="fab fa-github"></i>
+                  View Project</button></a>
+
+                <button class="btn btn-primary modal-button" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
               </div>
@@ -483,13 +499,18 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Game of Life</h2>
+                <div class="header-seperator"style="display:inline-block"></div>
                 <p class="item-intro text-muted">MATLAB</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio-content/gameOfLife.gif" alt="">
-                <p>Game of Life mimics John Conway's one player simulation game. The concept is that ... </p>
+                <p>Game of Life mimics Cambridge’s mathematician John Conway’s one player ‘cellular automation’ simulation game. Depending on the initial conditions, the cells form various patterns throughout the course of the game.<br>The rules are each cell without any neighbors will die from solitude. Each cell with four or more neighbors die from overpopulation. For a space that is unpopulated, if it has three neighbors, it will become populated.</p>
                 <ul class="list-inline">
                   <li>Date: November 2018</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <a href="https://github.com/louishinohara/GameOfLife" target="_blank"><button class="btn btn-primary modal-button"  type="button">
+                  <i class="fab fa-github"></i>
+                  View Project</button></a>
+
+                <button class="btn btn-primary modal-button" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
               </div>
@@ -615,7 +636,6 @@ START SOFTWARE SECTION
 END SOFTWARE SECTION
 ================================ -->
 
-
 <!--============================
     START WORK EXPERIENCE SECTION
 ================================ -->
@@ -623,7 +643,7 @@ END SOFTWARE SECTION
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h5 class="card-title" style="padding-top: 35px;">My Work Experience</h5>
+          <h5 class="card-title" style="padding-top: 80px;">My Work Experience</h5>
           <div class="header-seperator"style="display:inline-block"></div>
           <h3 class="section-subheading text-muted">Here are some of the places I've worked at</h3><br><br>
         </div>
@@ -641,7 +661,7 @@ END SOFTWARE SECTION
                   <h4 class="work-date">June 2014 - September 2016</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">At the Kids International Weekend School of NJ, I was an assistant teacher and worked with kids from grades 1 to 3. I also did a lot of office work such as keeping track of grades, attendance using excel. One of the projects I worked on here was creating a yearbook for the school. </p>
+                  <p class="text-muted">At the Kids International Weekend School of NJ, I was an assistant teacher and worked with kids from grades 1 to 3.</p>
                 </div>
               </div>
             </li>
@@ -655,13 +675,13 @@ END SOFTWARE SECTION
                   <h4 class="work-date">September 2015 - August 2018</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">As a Dietary Aide Supervisor, I took on the role as a leader to assimilate new employees into the work environment. It has allowed me to grow as a person by... </p>
+                  <p class="text-muted">As a Dietary Aide Supervisor, I took on the role as a leader to assimilate new employees into the work environment.  </p>
                 </div>
               </div>
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                <img class="rounded-circle img-fluid" src="img/work/oit.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -670,11 +690,11 @@ END SOFTWARE SECTION
                   
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">As a ResNet Certified Oit Dispatch Consulant, my role is to go out into the field and assistant patrons in troubleshooting their technological devices. This job is a great mix of customer service with technology and has prepared me to enter the work force.</p>
+                  <p class="text-muted">As a ResNet Certified Oit Dispatch Consulant, my role is to go out into the field and assistant patrons in troubleshooting their technological devices.</p>
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li class="timeline-inverted" >
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/cyphercity.jpg" alt="">
               </div>
@@ -684,7 +704,7 @@ END SOFTWARE SECTION
                   <h4 class="work-date">July 2019 - Present</h4>   
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">As an intern at Cypher City, my role as the lead iOS developer was to take the flowchart which was provided by the CEO and create a working application.</p>
+                  <p class="text-muted">As an intern at Cypher City, my role as the lead iOS developer is to take the flowchart provided by the CEO and create a working application.</p>
                 </div>
               </div>
             </li>
@@ -709,40 +729,14 @@ END SOFTWARE SECTION
 <!---============================
    Start Contact Section 
 =================================-->
-<div id="contact" class="offset">
+<div id="contact" class="offset" style="padding-bottom: 50px;">
     <footer class="contact-background">
         <section class="contact-wrap">
-        <div class="" >
-
-            <div class="container-fluid">  
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="my-info">
-                                <h4 class="contact-subheader"><i class="fas fa-phone-alt" style=></i>Phone</h4>
-                                <p>(201) 398-8872</p> 
-                        </div>
-                        <div class="my-info">
-                                <h4 class="contact-subheader"><i class="fas fa-home"></i>Address</h4>
-                                <p>Highland Park, NJ</p>
-                        </div>
-                        <div class="my-info">
-                                <h4 class="contact-subheader"><i class="fas fa-envelope"></i>Email</h4>
-                                <p style="font-size: 0.85rem;">ushio.shinohara@rutgers.edu</p>
-                        </div>
-                        <div class="contact-icons" >
-                        <h4 class="contact-subheader"><i class="fas fa-plug"></i>Connect</h4>
-                            <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
-                            <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
-                            <a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
-                            <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                                            
-                </div>
+        <div class="contact-info" >
                 
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <div class="col-lg-12 text-left">
-                            <h5 class="card-title">Want to Connect with Me?</h5>
+                            <h5 class="card-title contact-header-bottom">Want to Connect with Me?</h5>
                             <div class="header-seperator"style="display: center" ></div>
                           <!-- <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>    -->
                         </div>

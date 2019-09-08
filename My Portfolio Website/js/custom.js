@@ -48,7 +48,6 @@ $(document).ready(function() { //when document is ready
   });
 
 // FOR CONTACT FORM ANIMATION
-
 $('.contact-form').find('.form-control').each(function() {
   var targetItem = $(this).parent();
   if ($(this).val()) {
