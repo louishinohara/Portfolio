@@ -354,7 +354,7 @@ ul.CTAs a {
 }
 .my-card-title {
     color:black;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     flex: 1 1 auto;
     padding-top: 1.25rem;
     text-align: center
@@ -435,6 +435,7 @@ ul.CTAs a {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    padding-bottom: 2rem;
   }
   
   #portfolio .portfolio-item .portfolio-link {
@@ -1158,9 +1159,12 @@ input[type=hidden]:focus {
         -ms-transform: translateX(50%);
         transform: translateX(50%);
     }
-    /* #sidebar.active {
-        margin-left: 0 !important;
-    } */
+    .top-navbar-name{
+      padding-right: 2rem;
+    }
+    .contact-subheader-info{
+      font-size: 0.8rem;
+    }
     #sidebar .sidebar-header h3,
     #sidebar .CTAs {
         display: none;

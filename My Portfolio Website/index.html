@@ -1,4 +1,3 @@
-<!-- https://bootstrapious.com/p/bootstrap-sidebar -->
 <!DOCTYPE html>
 <html>
 
@@ -18,7 +17,6 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/waypoints.css">
     
 </head>
@@ -28,7 +26,7 @@
         ========================= -->
     <div class="wrapper sidebar">
         <!-- Sidebar  -->
-        <nav class="sidebar-nav sticky-top os-animation" id="sidebar">
+        <nav id="sidebar" class="sidebar-nav sticky-top">
             <ul class="navbar-nav sticky-top components">
                 <div class="sidebar-header">
                 <a href="#home">
@@ -90,24 +88,24 @@
             ========================= -->
         <div id="home" class="container-fluid topBar" >
             <nav id="top-navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed">
-                <div class="container-fluid os-animation" data-animation="fadeIn" data-delay=".2s">
+                <div class="container-fluid">
                     <div class="menu-button">
                         <button type="button" id="sidebarCollapse" class="text-left btn btn-info " style="font-size: 1.7rem; background-color: transparent; border-color: transparent; color: #7386D5; " >
                             <i class="fas fa-bars"></i>
                          </button> 
                       </div>
-                    <h3 class="top-navbar-name" data-delay=".3s">Louis Shinohara</h3>
+                    <h3 class="top-navbar-name os-animation" data-animation="fadeIn" data-delay=".2s">Louis Shinohara</h3>
 
                     <div class="collapse navbar-collapse blah" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto navbar-text">
                             <div class="row">
-                            <li class="nav-item navbar-item">
+                            <li class="nav-item navbar-item os-animation" data-animation="fadeIn" data-delay=".3s">
                                 <a target="_blank" href="https://github.com/louishinohara">Github<i class="fab fa-github-square"></i></a>
                             </li>
-                            <li class="nav-item navbar-item">
+                            <li class="nav-item navbar-item os-animation" data-animation="fadeIn" data-delay=".4s">
                                 <a target="_blank" href="https://www.linkedin.com/in/louishinohara/">| LinkedIn <i class="fab fa-linkedin"></i></a><!--  -->
                             </li>
-                            <li class="nav-item navbar-item">
+                            <li class="nav-item navbar-item os-animation" data-animation="fadeIn" data-delay=".5s">
                                 <a href="Resume.pdf" target="_blank" class="download">| Resume <i class="fas fa-file"></i></a>
                             </li>
                         </div>
@@ -132,20 +130,20 @@
                     </div>
                     <div class="col-md-7">
                         <div class="card-body">
-                            <h5 class="my-card-title"> 	
-                                <div class="col-12 os-animation" data-animation="fadeInUp"></div>
-                                About Me<br>
-                                <div class="header-seperator"style="display:inline-block"></div>
+                            <h5 class="my-card-title os-animation" data-animation="fadeIn" data-delay=".4s" > 	
+                                <div class="col-12"></div>
+                                About Me!
+                                <!-- <div class="header-seperator"style="display:inline-block"></div> -->
                               </h5>
                             
                             <div class="row justify-content-center" >
                                 <div class="column">
-                            <h5 class="card-subtitle mb-2 text-muted">Computer Engineering Student</h5>
+                            <h5 class="card-subtitle mb-2 text-muted os-animation" data-animation="fadeIn" data-delay=".6s">Computer Engineering Student</h5>
 
 <!--=========================
     START BUTTONS ON ABOUT
 ============================= -->
-                         <div class="btn-toolbar">
+                         <div class="btn-toolbar os-animation" data-animation="fadeIn" data-delay=".8s">
                             <button type="button" class="btn btn-primary education-button" data-toggle="modal" data-target="#education" style="justify-content:center; background-color: #7386D5; border-color: #7386D5;">
                             Education <i class="fas fa-graduation-cap"></i>
                             </button>
@@ -181,7 +179,7 @@
                 </div>
             </div>     
         </div>
-                <p class="card-text aboutCaption"><span style="font-weight: 500; font-size: 3rem;">H</span>ello! My name is Ushio Louis Shinohara. I am currently a third year computer engineering student at Rutgers University New Brunswick. I am a self taught programmer who has actively been coding for a year now and I currently do alot of work in front end development but would like to work more in back end development. My career goal is to become a software engineer and I am currently searching for an internship in the software field for summer 2020. Feel free to check out my website which I coded without a template and some of my work. I can't wait to hear back from you!
+                <p class="card-text aboutCaption os-animation" data-animation="fadeIn" data-delay="1s"><span style="font-weight: 500; font-size: 3rem;">H</span>ello! My name is Ushio Louis Shinohara. I am currently a third year computer engineering student at Rutgers University New Brunswick. I am a self taught programmer who has actively been coding for a year now and I currently do alot of work in front end development but would like to work more in back end development. My career goal is to become a software engineer and I am currently searching for an internship in the software field for summer 2020. Feel free to check out my website which I coded without a template and some of my work. I can't wait to hear back from you!
                 </p>
                          </div>
 <!--========================= 
@@ -198,15 +196,15 @@
     <div class="container" >
       <div class="row">
         <div class="col-lg-12 text-center">
-            <h5 class="card-title">Coding Projects</h5>
-            <div class="header-seperator"style="display:inline-block"></div>
-          <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>   
+            <h5 class="card-title os-animation" data-animation="fadeInUp">Coding Projects</h5>
+            <div class="header-seperator os-animation" data-animation="fadeInUp" style="display:inline-block"></div>
+          <h6 class="card-subtitle mb-2 text-muted os-animation" data-animation="fadeInUp" style="padding-bottom: 10px;">Check out some of my work.</h6>   
         </div>
       </div>
 
       <div class="row">
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item os-animation" data-animation="slideInLeft">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -221,7 +219,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item os-animation" data-animation="slideInUp">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -231,13 +229,13 @@
             <img class="img-fluid" src="img/portfolio-content/OT-site.gif" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>ThetaTau Website</h4>
+            <h4 class="portfolio-project-caption">ThetaTau Website</h4>
             <p class="text-muted">Web Development</p>
           </div>
         </div>
 
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item os-animation" data-animation="slideInRight">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -247,12 +245,12 @@
             <img class="img-fluid" src="img/portfolio-content/imageBlur.gif" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Image Blur</h4>
+            <h4 >Image Blur</h4>
             <p class="text-muted">MATLAB</p>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item os-animation" data-animation="slideInLeft" >
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -262,12 +260,12 @@
             <img class="img-fluid" src="img/portfolio-content/calc.gif" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Calculator App</h4>
+            <h4 class="portfolio-project-caption">Calculator App</h4>
             <p class="text-muted">Swift</p>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item os-animation" data-animation="slideInUp">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -277,13 +275,13 @@
             <img class="img-fluid" src="img/portfolio-content/gameoflife.gif" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Weather Something</h4>
+            <h4>Better</h4>
             <p class="text-muted">Web Development</p>
           </div>
         </div>
 
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item os-animation" data-animation="slideInRight">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -293,7 +291,7 @@
             <img class="img-fluid" src="img/portfolio-content/gameoflife.gif" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Game of Life</h4>
+            <h4 class="portfolio-project-caption">Game of Life</h4>
             <p class="text-muted">MATLAB</p>
           </div>
         </div>
@@ -532,14 +530,14 @@
 <div id="skills">
     <div class="inner" style="padding-bottom: 70px; background-color:rgb(246, 246, 246);">
       <div class="header">
-        <h1 class="card-title" style="padding-top: 50px; ">My Skills</h1>
-        <div class="header-seperator"style="display:inline-block"></div>
-        <h6 class="section-subheading mb-2 text-muted" style="padding-bottom: 10px;">Some of my skills and programs I've worked with</h6>   
+        <h1 class="card-title os-animation" data-animation="fadeInUp" style="padding-top: 50px; ">My Skills</h1>
+        <div class="header-seperator os-animation" style="display:inline-block" data-animation="fadeInUp" data-delay="0.2s"></div>
+        <h6 class="section-subheading mb-2 text-muted os-animation" data-animation="fadeInUp" data-delay="0.4s" style="padding-bottom: 10px;">Some of my skills and programs I've worked with</h6>   
       </div>
       <div class="skill-container container" >
         <!-- d-flex -->
         <div class="row justify-content-center">
-        <div class="skill-box">
+        <div class="skill-box os-animation" data-animation="bounceInLeft" data-delay=".3s">
             <div class="skill-title">
               <div class="skill-img">
                 <img src="img/skill-icon/html5.png" class="skill-icon">
@@ -549,7 +547,7 @@
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p> -->
           </div>
 
-          <div class="skill-box">
+          <div class="skill-box os-animation" data-animation="bounceInLeft" data-delay=".2s">
               <div class="skill-title">
                 <div class="skill-img">
                   <img src="img/skill-icon/css3.png" class="skill-icon">
@@ -559,7 +557,7 @@
               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
             </div>
 
-            <div class="skill-box">
+            <div class="skill-box os-animation" data-animation="bounceIn" data-delay=".5s">
                 <div class="skill-title">
                   <div class="skill-img">
                     <img src="img/skill-icon/python.png" class="skill-icon">
@@ -569,7 +567,7 @@
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
               </div>
               
-              <div class="skill-box">
+              <div class="skill-box os-animation" data-animation="bounceInRight" data-delay=".2s">
                   <div class="skill-title">
                     <div class="skill-img">
                       <img src="img/skill-icon/c++.png" class="skill-icon">
@@ -579,7 +577,7 @@
                   <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
                 </div>
 
-                <div class="skill-box">
+                <div class="skill-box os-animation" data-animation="bounceInRight" data-delay=".3s">
                     <div class="skill-title">
                       <div class="skill-img">
                         <img src="img/skill-icon/swift.png" class="skill-icon">
@@ -600,32 +598,32 @@ END SKILLS SECTION
 START SOFTWARE SECTION
 ================================ -->
 <div id="software">
-    <div class="col-lg-12 text-center">
-      <h5 class="card-title">Familiar Programs</h5>
-      <div class="header-seperator"style="display:inline-block"></div>
-      <h3 class="section-subheading text-muted">Software and programs I have extensively worked with</h3><br><br>
+    <div class="col-lg-12 text-center os-animation" data-animation="fadeInUp">
+      <h5 class="card-title os-animation" data-animation="fadeInUp" data-delay="">Familiar Programs</h5>
+      <div class="header-seperator os-animation" data-animation="fadeInUp" data-delay=" 0.2s"style="display:inline-block"></div>
+      <h3 class="section-subheading text-muted os-animation" data-animation="fadeInUp" data-delay="0.4s">Software and programs I have extensively worked with</h3><br><br>
     </div>
     <div class="container"></div>
     <div class="row justify-content-center">
-        <div class="software-img ">
+        <div class="software-img os-animation" data-animation="bounceInLeft" data-delay="0.6s">
           <img src="img/software-icon/visual-studio-code.png" class="software-icon">
         </div>
-        <div class="software-img ">
+        <div class="software-img os-animation" data-animation="bounceInLeft" data-delay="0.4s">
           <img src="img/software-icon/boostrap.png" class="software-icon">
         </div>
-        <div class="software-img ">
+        <div class="software-img os-animation" data-animation="bounceInLeft" data-delay="0.2s">
           <img src="img/software-icon/x-code.png" class="software-icon">
         </div>
-        <div class="software-img">
+        <div class="software-img os-animation" data-animation="bounceIn" data-delay="0.5s">
           <img src="img/software-icon/firebase.png" class="software-icon">
         </div>
-        <div class="software-img">
+        <div class="software-img os-animation" data-animation="bounceInRight" data-delay="0.2s">
             <img src="img/software-icon/matlab.png" class="software-icon">
         </div>
-        <div class="software-img">
+        <div class="software-img os-animation" data-animation="bounceInRight" data-delay="0.4s">
           <img src="img/software-icon/lt-spice.png" class="software-icon">
         </div>
-        <div class="software-img">
+        <div class="software-img os-animation" data-animation="bounceInRight" data-delay="0.6s">
           <img src="img/software-icon/maple.png" class="software-icon">
         </div>
     </div>
@@ -644,9 +642,9 @@ END SOFTWARE SECTION
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h5 class="card-title" style="padding-top: 80px;">My Work Experience</h5>
-          <div class="header-seperator"style="display:inline-block"></div>
-          <h3 class="section-subheading text-muted">Here are some of the places I've worked at</h3><br><br>
+          <h5 class="card-title os-animation" data-animation="fadeInUp" style="padding-top: 80px;">My Work Experience</h5>
+          <div class="header-seperator os-animation" data-animation="fadeInUp" data-delay="0.2s" style="display:inline-block"></div>
+          <h3 class="section-subheading text-muted os-animation" data-animation="fadeInUp" data-delay="0.4s">Here are some of the places I've worked at</h3><br><br>
         </div>
       </div>
       <div class="row">
@@ -658,10 +656,10 @@ END SOFTWARE SECTION
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="work-title">Kids International Weekend School of New Jersey</h4>
-                  <h4 class="work-date">June 2014 - September 2016</h4>
+                  <h4 class="work-title os-animation" data-animation="fadeIn" data-delay="0.2s">Kids International Weekend School of New Jersey</h4>
+                  <h4 class="work-date os-animation" data-animation="fadeIn" data-delay="0.4s">June 2014 - September 2016</h4>
                 </div>
-                <div class="timeline-body">
+                <div class="timeline-body os-animation" data-animation="fadeIn" data-delay="0.6s">
                   <p class="text-muted">At the Kids International Weekend School of NJ, I was an assistant teacher and worked with kids from grades 1 to 3.</p>
                 </div>
               </div>
@@ -672,11 +670,11 @@ END SOFTWARE SECTION
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="work-title">Dellridge Health and Rehabilitation Center</h4>
-                  <h4 class="work-date">September 2015 - August 2018</h4>
+                  <h4 class="work-title os-animation" data-animation="fadeIn" data-delay="0.2s">Dellridge Health and Rehabilitation Center</h4>
+                  <h4 class="work-date os-animation" data-animation="fadeIn" data-delay="0.4s">September 2015 - August 2018</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">As a Dietary Aide Supervisor, I took on the role as a leader to assimilate new employees into the work environment.  </p>
+                  <p class="text-muted os-animation" data-animation="fadeIn" data-delay="0.6s">As a Dietary Aide Supervisor, I took on the role as a leader to assimilate new employees into the work environment.  </p>
                 </div>
               </div>
             </li>
@@ -686,12 +684,12 @@ END SOFTWARE SECTION
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="work-title">Office of Information Technology</h4>
-                  <h4 class="work-date">May 2019 - Present</h4>
+                  <h4 class="work-title os-animation" data-animation="fadeIn" data-delay="0.2s">Office of Information Technology</h4>
+                  <h4 class="work-date os-animation" data-animation="fadeIn" data-delay="0.4s">May 2019 - Present</h4>
                   
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">As a ResNet Certified Oit Dispatch Consulant, my role is to go out into the field and assistant patrons in troubleshooting their technological devices.</p>
+                  <p class="text-muted os-animation" data-animation="fadeIn" data-delay="0.6s">As a ResNet Certified Oit Dispatch Consulant, my role is to go out into the field and assistant patrons in troubleshooting their technological devices.</p>
                 </div>
               </div>
             </li>
@@ -701,11 +699,11 @@ END SOFTWARE SECTION
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="work-title">Cypher City</h4>
-                  <h4 class="work-date">July 2019 - Present</h4>   
+                  <h4 class="work-title os-animation" data-animation="fadeIn" data-delay="0.2s">Cypher City</h4>
+                  <h4 class="work-date os-animation" data-animation="fadeIn" data-delay="0.4s">July 2019 - Present</h4>   
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">As an intern at Cypher City, my role as the lead iOS developer is to take the flowchart provided by the CEO and create a working application.</p>
+                  <p class="text-muted os-animation" data-animation="fadeIn" data-delay="0.6s">As an intern at Cypher City, my role as the lead iOS developer is to take the flowchart provided by the CEO and create a working application.</p>
                 </div>
               </div>
             </li>
@@ -778,15 +776,15 @@ END SOFTWARE SECTION
                           
                               <div class="col-md-3 my-info">
                                       <h4 class="contact-subheader"><i class="fas fa-phone-alt" style=></i>Phone</h4>
-                                      <p>(201) 398-8872</p> 
+                                      <p class="contact-subheader-info">(201) 398-8872</p> 
                               </div>
                               <div class="col-md-3 my-info">
                                 <h4 class="contact-subheader"><i class="fas fa-envelope"></i>Email</h4>
-                                <p >ushio.shinohara@rutgers.edu</p>
+                                <p class="contact-subheader-info">ushio.shinohara@rutgers.edu</p>
                               </div>
                               <div class="col-md-3 my-info">
                                       <h4 class="contact-subheader"><i class="fas fa-home"></i>Address</h4>
-                                      <p>Highland Park, NJ</p>
+                                      <p class="contact-subheader-info">Highland Park, NJ</p>
                               </div>
                       </div> 
                   
@@ -809,7 +807,6 @@ END SOFTWARE SECTION
     
     <script src="js/custom.js"></script>
     <script src="js/waypoints.js"></script>
-    <script src="js/lightbox.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
 
