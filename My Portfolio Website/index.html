@@ -134,18 +134,19 @@
                         <div class="card-body">
                             <h5 class="my-card-title"> 	
                                 <div class="col-12 os-animation" data-animation="fadeInUp"></div>
-                                About Me
-                                <div class="header-seperator"></div>
-                            </h5>
-                            <div class="row">
+                                About Me<br>
+                                <div class="header-seperator"style="display:inline-block"></div>
+                              </h5>
+                            
+                            <div class="row justify-content-center" >
                                 <div class="column">
-                            <h5 class="card-subtitle mb-2 text-muted"style="padding-left: 20px">Computer Engineering Student</h5>
+                            <h5 class="card-subtitle mb-2 text-muted">Computer Engineering Student</h5>
 
 <!--=========================
     START BUTTONS ON ABOUT
 ============================= -->
-                         <div class="btn-toolbar education-button" >
-                            <button type="button" class="btn btn-primary education-button" data-toggle="modal" data-target="#education" style="background-color: #7386D5; border-color: #7386D5;">
+                         <div class="btn-toolbar">
+                            <button type="button" class="btn btn-primary education-button" data-toggle="modal" data-target="#education" style="justify-content:center; background-color: #7386D5; border-color: #7386D5;">
                             Education <i class="fas fa-graduation-cap"></i>
                             </button>
                     <div class="modal fade" id="education" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -273,7 +274,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio-content/gameoflifetemp.gif" alt="">
+            <img class="img-fluid" src="img/portfolio-content/gameoflife.gif" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Weather Something</h4>
@@ -289,7 +290,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio-content/gameOfLifetemp.gif" alt="">
+            <img class="img-fluid" src="img/portfolio-content/gameoflife.gif" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Game of Life</h4>
@@ -729,26 +730,26 @@ END SOFTWARE SECTION
 <!---============================
    Start Contact Section 
 =================================-->
-<div id="contact" class="offset" style="padding-bottom: 50px;">
+<div id="contact" class="offset" style="text-align:center">
     <footer class="contact-background">
         <section class="contact-wrap">
         <div class="contact-info" >
-                
-                    <div class="col-md-12">
-                        <div class="col-lg-12 text-left">
-                            <h5 class="card-title contact-header-bottom">Want to Connect with Me?</h5>
-                            <div class="header-seperator"style="display: center" ></div>
-                          <!-- <h6 class="card-subtitle mb-2 text-muted" style="padding-bottom: 10px;">Check out some of my work.</h6>    -->
+                    <div>
+                            <h5 class="card-title contact-header-bottom">Want to Connect with Me?<br>
+                            <div class="header-seperator-contact" style="display: inline-block"></div></h5>
+                    <div>
+                        <h4 class="contact-subtitle" style="padding-bottom: 50px; text-align: center">Please feel free to reach out to me. <br> I will get back to you as soon as possible!</h4>
+                        <div class="contact-icons" style="justify-content: center">
+                            <a href="https://www.instagram.com/ruthetatau/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a> 
+                            <a href="https://www.facebook.com/RUThetaTau/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://twitter.com/ruthetatau" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+                            <a href="https://www.github.com/louishinohara/" target="_blank"><i class="fab fa-github-square" target="_blank"></i></a>  
+                            <a target="_blank" href="https://www.linkedin.com/in/louishinohara/"><i class="fab fa-linkedin"></i></a>
                         </div>
-                        <!-- <h3 class="contact-header">I'd Love To Contact You!</h3> -->
-                        <!-- <h3 class="contact-header"> </h3> -->
-                        <!-- <div class="header-seperator"></div> -->
-                        <h4 class="contact-subtitle" style="padding-bottom: 50px;">Please feel free to reach out and leave me an email. <br> I will get back to you as soon as possible!</h4>
-                        <form class="contact-form" target="_blank" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/louishinohara@gmail.com" method="post">
+                        <form class="contact-form" target="_blank" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/louishinohara@gmail.com" method="post" style="width: 70%">
                             <fieldset id="fs-frm-inputs">
-
-                                <div class="contact-block">
-                                    <div class="row">
+                                <div class="contact-block justify-content-center" >
+                                    <div class="row col-md-12">
                                         <div class="form-group col-md-6 input-block">
                                             <label for="">Your Name*</label>
                                             <input id="full-name" type="text" name="name" class="form-control" required="">  
@@ -759,20 +760,36 @@ END SOFTWARE SECTION
                                             <input id="email-address" type="email" name="_replyto" class="form-control"  required="">
                                         </div>
 
-                                        <div class="form-group col-md-12 input-block">
+                                        <div class="form-group input-block">
                                             <label for="">Drop your message here</label>
-                                            <textarea id="message" name="message" class="form-control" rows="2" required="required" style="background-color: transparent;"></textarea> 
+                                            <textarea id="message" name="message" class="form-control" rows="3" required="required" style="background-color: transparent;"></textarea> 
                                             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                                         </div>
                                     </div>
                                 </div>
-                                    <input type="submit" name="submit" id="submit" class="btn btn-md contact-btn" style="justify-content: right;"value="SEND MESSAGE">
+                                    <input type="submit" name="submit" id="submit" class="btn btn-md contact-btn" style="justify-content: center;"value="SEND MESSAGE">
                                 </fieldset>
                             </form>
                     </div>
-                </div> 
+                    <div class="container-fluid">  
+                      <div class="row" style="justify-content: center">
+                          
+                              <div class="col-md-3 my-info">
+                                      <h4 class="contact-subheader"><i class="fas fa-phone-alt" style=></i>Phone</h4>
+                                      <p>(201) 398-8872</p> 
+                              </div>
+                              <div class="col-md-3 my-info">
+                                <h4 class="contact-subheader"><i class="fas fa-envelope"></i>Email</h4>
+                                <p >ushio.shinohara@rutgers.edu</p>
+                        </div>
+                              <div class="col-md-3 my-info">
+                                      <h4 class="contact-subheader"><i class="fas fa-home"></i>Address</h4>
+                                      <p>Highland Park, NJ</p>
+                              </div>
+                      </div> 
                   
             </div> 
+        </div>
         </section>
     </footer>
 </div>

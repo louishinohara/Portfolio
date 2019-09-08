@@ -352,6 +352,7 @@ ul.CTAs a {
     font-size: 2.4rem;
     flex: 1 1 auto;
     padding-top: 1.25rem;
+    text-align: center
 }
 .about-padding{
   padding-left:1.25rem;
@@ -361,6 +362,14 @@ ul.CTAs a {
     width: 60px;
     background-color: #7386D5;
     margin: 7px 0 7px 0;
+    display: center;
+}
+
+.header-seperator-contact {
+  height: 5px;
+  width: 100px;
+  background-color: #7386D5;
+  margin: 7px 0 7px 0;
 }
 .card-title-subSection {
     color: black;
@@ -398,10 +407,7 @@ ul.CTAs a {
     /* background: linear-gradient(180deg, #7386D5 3%, white 100%); */
     background: white;
 }
-.education-button{
-  justify-content: left; 
-  padding-left: 20px;
-}
+
 .modal-button {
   background-color:#7386D5; 
   border-color: transparent;
@@ -410,7 +416,10 @@ ul.CTAs a {
   background-color:rgb(91, 107, 170); 
   border-color: transparent;
 }
-
+.education-button:hover{
+  background-color:rgb(91, 107, 170); 
+  border-color: transparent;
+}
 /* ==================================================
                     PORTFOLIO GRID SECTION                                 
 ===================================================== */
@@ -913,10 +922,16 @@ transform: translateY(-10px);
 ===================================================== */
 
 .contact-icons{
-    margin:24px;
+    margin-left:24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    /* margin-top:none; */
 }
 .my-info{
-    margin:24px;
+  margin-left:24px;
+  margin-right: 24px;
+  margin-top: 24px;
+  /* margin-top:none; */
 }
 .contact-icons:hover {
     background-color: transparent;
@@ -958,12 +973,10 @@ footer h3 {
     color: grey;
     opacity: 0.6;
     font-size: 1rem;
-    padding-left:15px;
     padding-bottom: 10px!important;
 }
 .contact-form{
     padding: none!important;
-    align-content: left;
 }
 .contact-subheader{
     font-size: 1.4rem;
@@ -977,10 +990,16 @@ footer h3 {
     margin-bottom: 20px;
     margin-left: 10px;
 }
+.contact-header-bottom{
+  text-align: center;
+  font-size: 2.8rem;
+}
 .btn-outline-light {
     color:#7386D5!important;
 }
-
+.btn-toolbar{
+  justify-content: center;
+}
 .form-group {
     margin-bottom: .6rem;
 }
@@ -1068,8 +1087,14 @@ input[type=hidden]:focus {
     .header-seperator {
       margin:auto;
     }
+    .card-subtitle{
+      padding-top: 10px;
+    }
     .education-button {
       text-align:center;
+      display:center;
+      justify-content: center;
+      display: inline-block
     }
     .sidebar-pic{
       height: 1rem;
@@ -1078,9 +1103,6 @@ input[type=hidden]:focus {
     .top-navbar-name{
       font-size: 1.5rem;
       padding-right: 0.8rem;
-    }
-    .education-button{
-      justify-content: center;
     }
     .about-list {
       text-align: left;
@@ -1106,6 +1128,7 @@ input[type=hidden]:focus {
       font-size: 2.1rem;
     }
 }
+
 
 @media (max-width: 768px) {
     #sidebar {
